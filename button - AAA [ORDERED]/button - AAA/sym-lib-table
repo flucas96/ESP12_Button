@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name button---AAA-rescue)(type Legacy)(uri "${KIPRJMOD}/button - AAA-rescue.lib")(options "")(descr ""))
+)
