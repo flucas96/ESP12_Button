@@ -38,7 +38,7 @@ $EndComp
 Text Label 6700 3700 0    50   ~ 0
 GND
 Text Label 5300 3700 2    50   ~ 0
-VCC
+VCC_ESP
 Text Label 7900 3250 2    50   ~ 0
 VCC
 Text Label 7900 3350 2    50   ~ 0
@@ -442,4 +442,26 @@ $EndComp
 Connection ~ 2750 4650
 Text Label 3050 4650 0    50   ~ 0
 GND
+Text Notes 2150 5950 0    50   ~ 0
+DRV is low when ACTIVE! [ONLY TPL5110] 
+$Comp
+L Transistor_FET:TSM2301ACX Q2
+U 1 1 60357B62
+P 4550 5700
+F 0 "Q2" V 4892 5700 50  0000 C CNN
+F 1 "TSM2301ACX" V 4801 5700 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4750 5625 50  0001 L CIN
+F 3 "https://www.taiwansemi.com/products/datasheet/TSM2301A_C15.pdf" H 4550 5700 50  0001 L CNN
+	1    4550 5700
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3800 5250 3800 5900
+Wire Wire Line
+	3800 5900 4550 5900
+Connection ~ 3800 5250
+Text Label 4350 5600 2    50   ~ 0
+VCC
+Text Label 4750 5600 0    50   ~ 0
+VCC_ESP
 $EndSCHEMATC
