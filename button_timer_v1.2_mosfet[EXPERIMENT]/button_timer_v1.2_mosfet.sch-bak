@@ -314,7 +314,7 @@ Wire Wire Line
 Text Label 2250 6050 3    50   ~ 0
 GND
 Wire Wire Line
-	2550 4150 2550 5050
+	2550 4150 2550 4900
 Wire Wire Line
 	2550 5050 2250 5050
 Wire Wire Line
@@ -551,10 +551,10 @@ Wire Wire Line
 Wire Wire Line
 	2900 6250 2800 6250
 $Comp
-L Device:C C?
+L Device:C C4
 U 1 1 60346A52
 P 2800 6400
-F 0 "C?" H 2915 6446 50  0000 L CNN
+F 0 "C4" H 2915 6446 50  0000 L CNN
 F 1 "10nF-100nF" H 2915 6355 50  0000 L CNN
 F 2 "handsolder:C_0402_1005Metric_Pad0.74x0.62mm_HandSoldermod" H 2838 6250 50  0001 C CNN
 F 3 "~" H 2800 6400 50  0001 C CNN
@@ -565,5 +565,21 @@ Connection ~ 2800 6250
 Wire Wire Line
 	2800 6250 2650 6250
 Text Label 2800 6550 0    50   ~ 0
+GND
+$Comp
+L Device:C C5
+U 1 1 60350256
+P 2400 4900
+F 0 "C5" V 2148 4900 50  0000 C CNN
+F 1 "100nF" V 2239 4900 50  0000 C CNN
+F 2 "handsolder:C_0805_2012handsodermod" H 2438 4750 50  0001 C CNN
+F 3 "~" H 2400 4900 50  0001 C CNN
+	1    2400 4900
+	0    1    1    0   
+$EndComp
+Connection ~ 2550 4900
+Wire Wire Line
+	2550 4900 2550 5050
+Text Label 2250 4900 2    50   ~ 0
 GND
 $EndSCHEMATC

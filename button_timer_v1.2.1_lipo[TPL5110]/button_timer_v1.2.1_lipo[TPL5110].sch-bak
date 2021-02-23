@@ -370,22 +370,22 @@ Wire Wire Line
 Text Label 2950 5550 3    50   ~ 0
 GND
 $Comp
-L Timer:TPL5110 U?
+L Timer:TPL5110 U1
 U 1 1 60365430
 P 2450 5150
-F 0 "U?" H 2400 5731 50  0000 C CNN
+F 0 "U1" H 2400 5731 50  0000 C CNN
 F 1 "TPL5110" H 2400 5640 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 2450 5150 50  0001 C CNN
+F 2 "handsolder:SOT-23-6handsoldering" H 2450 5150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpl5110.pdf" H 2250 4750 50  0001 C CNN
 	1    2450 5150
 	1    0    0    -1  
 $EndComp
 Connection ~ 2950 5250
 $Comp
-L Transistor_FET:TSM2301ACX Q?
+L Transistor_FET:TSM2301ACX Q1
 U 1 1 6036ABC4
 P 3900 5050
-F 0 "Q?" V 4242 5050 50  0000 C CNN
+F 0 "Q1" V 4242 5050 50  0000 C CNN
 F 1 "TSM2301ACX" V 4151 5050 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4100 4975 50  0001 L CIN
 F 3 "https://www.taiwansemi.com/products/datasheet/TSM2301A_C15.pdf" H 3900 5050 50  0001 L CNN
@@ -409,10 +409,10 @@ Wire Wire Line
 Wire Wire Line
 	4400 4750 4700 4750
 $Comp
-L Device:R R?
+L Device:R R7
 U 1 1 60373816
 P 4350 5100
-F 0 "R?" H 4420 5146 50  0000 L CNN
+F 0 "R7" H 4420 5146 50  0000 L CNN
 F 1 "100k" H 4420 5055 50  0000 L CNN
 F 2 "handsolder:R_0805_2012handsoldermod" V 4280 5100 50  0001 C CNN
 F 3 "~" H 4350 5100 50  0001 C CNN
@@ -429,10 +429,10 @@ Wire Wire Line
 Wire Wire Line
 	4650 4850 4700 4850
 $Comp
-L Device:C C?
+L Device:C C5
 U 1 1 60375EFB
 P 2900 4650
-F 0 "C?" V 2648 4650 50  0000 C CNN
+F 0 "C5" V 2648 4650 50  0000 C CNN
 F 1 "100nF" V 2739 4650 50  0000 C CNN
 F 2 "handsolder:C_0805_2012handsodermod" H 2938 4500 50  0001 C CNN
 F 3 "~" H 2900 4650 50  0001 C CNN
@@ -440,4 +440,6 @@ F 3 "~" H 2900 4650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 2750 4650
+Text Label 3050 4650 0    50   ~ 0
+GND
 $EndSCHEMATC

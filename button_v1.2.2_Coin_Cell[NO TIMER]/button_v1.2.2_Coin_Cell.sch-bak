@@ -57,37 +57,31 @@ GND
 $Comp
 L button_v1.2.2_Coin_Cell-rescue:LED-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2.1_Coin_Cell-rescue D1
 U 1 1 602D28D1
-P 3950 3150
-F 0 "D1" V 3897 3228 50  0000 L CNN
-F 1 "LED" V 3988 3228 50  0000 L CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Castellated" H 3950 3150 50  0001 C CNN
-F 3 "~" H 3950 3150 50  0001 C CNN
-	1    3950 3150
-	-1   0    0    1   
+P 2600 3400
+F 0 "D1" V 2547 3478 50  0000 L CNN
+F 1 "LED" V 2638 3478 50  0000 L CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Castellated" H 2600 3400 50  0001 C CNN
+F 3 "~" H 2600 3400 50  0001 C CNN
+	1    2600 3400
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3800 2950 3800 3150
+	2800 3250 2600 3250
 $Comp
 L button_v1.2.2_Coin_Cell-rescue:R-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2.1_Coin_Cell-rescue R6
 U 1 1 602D454A
-P 3650 2950
-F 0 "R6" H 3720 2996 50  0000 L CNN
-F 1 "1k" H 3720 2905 50  0000 L CNN
-F 2 "handsolder:R_0805_2012handsoldermod" V 3580 2950 50  0001 C CNN
-F 3 "~" H 3650 2950 50  0001 C CNN
-	1    3650 2950
-	0    1    1    0   
+P 2800 3100
+F 0 "R6" H 2870 3146 50  0000 L CNN
+F 1 "1k" H 2870 3055 50  0000 L CNN
+F 2 "handsolder:R_0805_2012handsoldermod" V 2730 3100 50  0001 C CNN
+F 3 "~" H 2800 3100 50  0001 C CNN
+	1    2800 3100
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4100 3150 4250 3150
-Wire Wire Line
-	3500 2950 3350 2950
-Wire Wire Line
-	3350 2950 3350 2850
-Wire Wire Line
-	3350 2850 3250 2850
-Text Label 4250 3150 3    50   ~ 0
-GND
+	2600 3550 2600 3700
+Text Label 2600 3700 2    50   ~ 0
+VCC
 Connection ~ 2250 4150
 Wire Wire Line
 	2900 4400 2900 4100
@@ -106,8 +100,6 @@ F 3 "~" H 3200 5550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2700 4100 2800 4100
-Wire Wire Line
-	3250 2850 3250 2950
 Connection ~ 2900 4100
 Wire Wire Line
 	4450 4300 4450 5550
@@ -143,7 +135,7 @@ U 1 1 60301345
 P 8300 3550
 F 0 "J1" H 8328 3576 50  0000 L CNN
 F 1 "Conn_01x05_Female" H 8328 3485 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 8300 3550 50  0001 C CNN
+F 2 "handsolder:PinSocket_1x05_P2.54mm_Vertical_mod" H 8300 3550 50  0001 C CNN
 F 3 "~" H 8300 3550 50  0001 C CNN
 	1    8300 3550
 	1    0    0    -1  
@@ -200,7 +192,7 @@ U 1 1 602CDBD4
 P 7800 2050
 F 0 "SW2" H 7800 2335 50  0000 C CNN
 F 1 "SW_Push" H 7800 2244 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_EVQPE1" H 7800 2250 50  0001 C CNN
+F 2 "handsolder:SW_SPST_B3U-1000P_mod" H 7800 2250 50  0001 C CNN
 F 3 "~" H 7800 2250 50  0001 C CNN
 	1    7800 2050
 	1    0    0    -1  
@@ -342,7 +334,12 @@ Wire Wire Line
 Wire Wire Line
 	2250 4150 2700 4150
 Wire Wire Line
-	2850 2950 2550 2950
+	2850 2950 2800 2950
 Text Label 2550 2950 2    50   ~ 0
 RST
+Connection ~ 2800 2950
+Wire Wire Line
+	2800 2950 2550 2950
+Text Label 3250 2950 0    50   ~ 0
+GND
 $EndSCHEMATC
