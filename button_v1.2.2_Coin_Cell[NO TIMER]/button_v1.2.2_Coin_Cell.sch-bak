@@ -137,8 +137,6 @@ F 3 "" H 4250 4100 50  0001 C CNN
 	1    3900 4150
 	1    0    0    -1  
 $EndComp
-Text Label 6700 3200 0    50   ~ 0
-GPIO5
 $Comp
 L button_v1.2.2_Coin_Cell-rescue:Conn_01x05_Female-Connector-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2.1_Coin_Cell-rescue J1
 U 1 1 60301345

@@ -72,11 +72,31 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# button-timer-v1.2.1_Coin_Cell-rescue_Battery_Cell-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue
+# button-timer-v1.2-rescue_AP2112K-3.3-Regulator_Linear-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue
 #
-DEF button-timer-v1.2.1_Coin_Cell-rescue_Battery_Cell-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue BT 0 0 N N 1 F N
+DEF button-timer-v1.2-rescue_AP2112K-3.3-Regulator_Linear-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue U 0 10 Y Y 1 F N
+F0 "U" -200 225 50 H V L CNN
+F1 "button-timer-v1.2-rescue_AP2112K-3.3-Regulator_Linear-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue" 0 225 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23-5" 0 325 50 H I C CNN
+F3 "" 0 100 50 H I C CNN
+$FPLIST
+ SOT?23?5*
+$ENDFPLIST
+DRAW
+S -200 175 200 -200 0 1 10 f
+X VIN 1 -300 100 100 R 50 50 1 1 W
+X GND 2 0 -300 100 U 50 50 1 1 W
+X EN 3 -300 0 100 R 50 50 1 1 I
+X NC 4 300 0 100 L 50 50 1 1 N N
+X VOUT 5 300 100 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# button-timer-v1.2-rescue_Battery_Cell-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue
+#
+DEF button-timer-v1.2-rescue_Battery_Cell-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
-F1 "button-timer-v1.2.1_Coin_Cell-rescue_Battery_Cell-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue" 100 0 50 H V L CNN
+F1 "button-timer-v1.2-rescue_Battery_Cell-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue" 100 0 50 H V L CNN
 F2 "" 0 60 50 V I C CNN
 F3 "" 0 60 50 V I C CNN
 DRAW
@@ -91,11 +111,11 @@ X - 2 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# button-timer-v1.2.1_Coin_Cell-rescue_C-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue
+# button-timer-v1.2-rescue_C-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue
 #
-DEF button-timer-v1.2.1_Coin_Cell-rescue_C-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue C 0 10 N Y 1 F N
+DEF button-timer-v1.2-rescue_C-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "button-timer-v1.2.1_Coin_Cell-rescue_C-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue" 25 -100 50 H V L CNN
+F1 "button-timer-v1.2-rescue_C-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -109,11 +129,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# button-timer-v1.2.1_Coin_Cell-rescue_Conn_01x05_Female-Connector-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue
+# button-timer-v1.2-rescue_Conn_01x05_Female-Connector-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue
 #
-DEF button-timer-v1.2.1_Coin_Cell-rescue_Conn_01x05_Female-Connector-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue J 0 40 Y N 1 F N
+DEF button-timer-v1.2-rescue_Conn_01x05_Female-Connector-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "button-timer-v1.2.1_Coin_Cell-rescue_Conn_01x05_Female-Connector-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue" 0 -300 50 H V C CNN
+F1 "button-timer-v1.2-rescue_Conn_01x05_Female-Connector-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -138,11 +158,11 @@ X Pin_5 5 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# button-timer-v1.2.1_Coin_Cell-rescue_ESP-12E-ardafruit-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue
+# button-timer-v1.2-rescue_ESP-12E-ardafruit-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue
 #
-DEF button-timer-v1.2.1_Coin_Cell-rescue_ESP-12E-ardafruit-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue X 0 40 Y Y 1 L N
+DEF button-timer-v1.2-rescue_ESP-12E-ardafruit-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue X 0 40 Y Y 1 L N
 F0 "X" 0 0 50 H I C CNN
-F1 "button-timer-v1.2.1_Coin_Cell-rescue_ESP-12E-ardafruit-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue" 0 0 50 H I C CNN
+F1 "button-timer-v1.2-rescue_ESP-12E-ardafruit-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -189,11 +209,11 @@ X GND 9 700 -300 200 L 50 50 1 0 W
 ENDDRAW
 ENDDEF
 #
-# button-timer-v1.2.1_Coin_Cell-rescue_INDUCTOR-pspice-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue
+# button-timer-v1.2-rescue_INDUCTOR-pspice-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue
 #
-DEF button-timer-v1.2.1_Coin_Cell-rescue_INDUCTOR-pspice-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue L 0 0 N Y 1 F N
+DEF button-timer-v1.2-rescue_INDUCTOR-pspice-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue L 0 0 N Y 1 F N
 F0 "L" 0 100 50 H V C CNN
-F1 "button-timer-v1.2.1_Coin_Cell-rescue_INDUCTOR-pspice-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue" 0 -50 50 H V C CNN
+F1 "button-timer-v1.2-rescue_INDUCTOR-pspice-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -206,11 +226,11 @@ X 2 2 250 0 50 L 30 30 1 1 I
 ENDDRAW
 ENDDEF
 #
-# button-timer-v1.2.1_Coin_Cell-rescue_LED-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue
+# button-timer-v1.2-rescue_LED-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue
 #
-DEF button-timer-v1.2.1_Coin_Cell-rescue_LED-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue D 0 40 N N 1 F N
+DEF button-timer-v1.2-rescue_LED-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "button-timer-v1.2.1_Coin_Cell-rescue_LED-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue" 0 -100 50 H V C CNN
+F1 "button-timer-v1.2-rescue_LED-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -229,11 +249,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# button-timer-v1.2.1_Coin_Cell-rescue_R-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue
+# button-timer-v1.2-rescue_R-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue
 #
-DEF button-timer-v1.2.1_Coin_Cell-rescue_R-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue R 0 0 N Y 1 F N
+DEF button-timer-v1.2-rescue_R-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "button-timer-v1.2.1_Coin_Cell-rescue_R-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue" 0 0 50 V V C CNN
+F1 "button-timer-v1.2-rescue_R-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -246,11 +266,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# button-timer-v1.2.1_Coin_Cell-rescue_SW_Push-Switch-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue
+# button-timer-v1.2-rescue_SW_Push-Switch-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue
 #
-DEF button-timer-v1.2.1_Coin_Cell-rescue_SW_Push-Switch-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue SW 0 40 N N 1 F N
+DEF button-timer-v1.2-rescue_SW_Push-Switch-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "button-timer-v1.2.1_Coin_Cell-rescue_SW_Push-Switch-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue" 0 -60 50 H V C CNN
+F1 "button-timer-v1.2-rescue_SW_Push-Switch-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -263,11 +283,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# button-timer-v1.2.1_Coin_Cell-rescue_TPS61097A-TPS-button-timer-v1.2-rescue
+# button-timer-v1.2-rescue_TPS61097A-TPS-button-timer-v1.2-rescue-button-timer-v1.2-rescue
 #
-DEF button-timer-v1.2.1_Coin_Cell-rescue_TPS61097A-TPS-button-timer-v1.2-rescue U 0 40 Y Y 1 F N
+DEF button-timer-v1.2-rescue_TPS61097A-TPS-button-timer-v1.2-rescue-button-timer-v1.2-rescue U 0 40 Y Y 1 F N
 F0 "U" 350 -50 50 H V C CNN
-F1 "button-timer-v1.2.1_Coin_Cell-rescue_TPS61097A-TPS-button-timer-v1.2-rescue" 50 100 50 H V C CNN
+F1 "button-timer-v1.2-rescue_TPS61097A-TPS-button-timer-v1.2-rescue-button-timer-v1.2-rescue" 50 100 50 H V C CNN
 F2 "" 350 -50 50 H I C CNN
 F3 "" 350 -50 50 H I C CNN
 DRAW
