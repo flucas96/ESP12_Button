@@ -1,4 +1,4 @@
-32240598387570
+45170831165003
 handsolder
 CC1101
 
@@ -15,6 +15,13 @@ capacitor handsolder
 2
 handsolder
 C_0805_2012handsodermod
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+handsolder
+C_0805_2012handsodermodmod
 Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
 capacitor handsolder
 0
@@ -42,12 +49,33 @@ Single 2.4 GHz Wi-Fi and Bluetooth combo  chip
 39
 39
 handsolder
+LED_0805_2012Metric_Castellated_mod
+LED SMD 0805 (2012 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+LED castellated
+0
+2
+2
+handsolder
 LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mmhandsolder
 https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
 LED RGB NeoPixel
 0
 4
 4
+handsolder
+PinSocket_1x05_P2.54mm_Vertical_mod
+Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x05 2.54mm single row
+0
+5
+5
+handsolder
+R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_mod
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
 handsolder
 R_0805_2012handsoldermod
 Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
@@ -70,6 +98,13 @@ SOIC SO
 16
 16
 handsolder
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+handsolder
 SOT-23-5
 5-pin SOT23 package
 SOT-23-5
@@ -91,6 +126,13 @@ SOT-23-6
 6
 6
 handsolder
+SOT-23_mod
+SOT-23, Standard
+SOT-23
+0
+3
+3
+handsolder
 SOT-363_SC-70-6_Handsoldering
 SOT-363, SC-70-6, Handsoldering
 SOT-363 SC-70-6 Handsoldering
@@ -104,6 +146,20 @@ SSOP 0.65
 0
 28
 28
+handsolder
+SW_PUSH_6mm_H8mm_mod
+tactile push button, 6x6mm e.g. PHAP33xx series, height=8mm
+tact sw push 6mm
+0
+4
+2
+handsolder
+SW_SPST_B3U-1000P_mod
+Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, without Ground Terminal, without Boss
+Tactile Switch
+0
+2
+2
 handsolder
 USB_MICRO_B_101181930001LF
 10118193-0001LF-1
@@ -120,8 +176,8 @@ Connector
 6
 handsolder
 button_smd_hmsensor
-http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1437566-3&DocType=Customer+Drawing&DocLang=English
-SPST button tactile switch
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+resistor handsolder
 0
 2
 2

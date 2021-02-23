@@ -1,4 +1,4 @@
-18919717138437854
+18924573456366745
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82049,6 +82049,13 @@ C_0805_2012handsodermod
 2
 2
 handsolder
+C_0805_2012handsodermodmod
+0
+0
+0
+2
+2
+handsolder
 D_SOD-123handsoldermod
 0
 0
@@ -82070,6 +82077,13 @@ ESP32 handsolder
 39
 39
 handsolder
+LED_0805_2012Metric_Castellated_mod
+0
+0
+0
+2
+2
+handsolder
 LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mmhandsolder
 0
 0
@@ -82083,6 +82097,13 @@ PinSocket_1x05_P2.54mm_Vertical_mod
 0
 5
 5
+handsolder
+R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_mod
+0
+0
+0
+2
+2
 handsolder
 R_0805_2012handsoldermod
 0
