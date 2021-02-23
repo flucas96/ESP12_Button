@@ -13,4 +13,4 @@ ________________________________________________________________________________
 
 __________________________________________________________________________________________________________________________________
 
---> V1.2 Coin Cell&LIpo ist gleich groß wie das V1.2_Mosfet[Experiment]
+--> V1.2 Coin Cell&LIpo & V1.2 Coin Cell&LIpo[NO Timer] sind gleich groß wie das V1.2_Mosfet[Experiment]

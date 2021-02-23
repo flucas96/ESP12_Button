@@ -271,7 +271,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 2300 3350 2600
 Text Label 3350 2600 3    50   ~ 0
-GND
+VCC
 Wire Wire Line
 	2200 4150 2200 4350
 Text Label 3600 5400 3    50   ~ 0
@@ -309,4 +309,11 @@ Wire Wire Line
 	4450 2500 4750 2500
 Text Label 4750 2500 0    50   ~ 0
 GND
+Wire Wire Line
+	4050 2500 4050 2700
+Wire Wire Line
+	4050 2700 3950 2700
+Connection ~ 4050 2500
+Text Label 3950 2700 2    50   ~ 0
+RST
 $EndSCHEMATC
