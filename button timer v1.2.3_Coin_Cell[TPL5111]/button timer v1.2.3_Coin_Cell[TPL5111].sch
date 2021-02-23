@@ -474,4 +474,6 @@ Text Label 6000 5350 0    50   ~ 0
 GND
 Text Label 6000 5750 0    50   ~ 0
 GND_ESP
+Text Notes 5000 5350 0    50   ~ 0
+ANGUCKEN!!!
 $EndSCHEMATC

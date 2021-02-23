@@ -460,10 +460,10 @@ EN
 Text Label 4500 1850 1    50   ~ 0
 VCC
 $Comp
-L Transistor_FET:IRF540N Q?
+L Transistor_FET:IRF540N Q1
 U 1 1 6035DDF2
 P 5900 5550
-F 0 "Q?" H 6104 5596 50  0000 L CNN
+F 0 "Q1" H 6104 5596 50  0000 L CNN
 F 1 "IRF540N" H 6104 5505 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6150 5475 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 5900 5550 50  0001 L CNN

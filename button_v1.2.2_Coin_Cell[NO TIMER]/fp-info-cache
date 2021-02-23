@@ -1,4 +1,4 @@
-18913260801715980
+18921331246819867
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -81931,370 +81931,407 @@ adafruit esp32
 PCBFEAT-REV-040
 <b>Revision Level Field</b> - 40 mil<p>
 Set version with global board attribute '>REV'
-0
+
 0
 0
 0
 adafruit esp32
 SOD-123
 <b>SOD-123</b>
-0
-0
+<p>Source: http://www.diodes.com/datasheets/ds30139.pdf</p>
+
 0
 2
 2
 adafruit esp32
 SOD-323
-0
-0
+<b>SOD323</b> (2.5x1.2mm)
+
 0
 2
 2
 adafruit esp32
 SOT23-5
-0
-0
+<b>Small Outline Transistor</b> - 5 Pin
+
 0
 5
 5
 adafruit esp32
 WROOM32
-0
-0
+
+
 0
 39
 39
 barral jack
 BarrelJack_CLIFF_FC681465S_SMT_Horizontal
-0
-0
+Surface-mount DC Barrel Jack, https://www.cliffuk.co.uk/products/dcconnectors/FC681465S.pdf
+Power Jack SMT
 0
 4
 3
 barral jack
 BarrelJack_CUI_PJ-036AH-SMT_Horizontal
-0
-0
+Surface-mount DC Barrel Jack, http://www.cui.com/product/resource/pj-036ah-smt.pdf
+Power Jack SMT
 0
 3
 3
 barral jack
 BarrelJack_CUI_PJ-063AH_Horizontal
-0
-0
+Barrel Jack, 2.0mm ID, 5.5mm OD, 24V, 8A, no switch, https://www.cui.com/product/resource/pj-063ah.pdf
+barrel jack cui dc power
 0
 4
 3
 barral jack
 BarrelJack_CUI_PJ-063AH_Horizontal_CircularHoles
-0
-0
+Barrel Jack, 2.0mm ID, 5.5mm OD, 24V, 8A, no switch, https://www.cui.com/product/resource/pj-063ah.pdf
+barrel jack cui dc power
 0
 4
 3
 barral jack
 BarrelJack_CUI_PJ-102AH_Horizontal
-0
-0
+Thin-pin DC Barrel Jack, https://cdn-shop.adafruit.com/datasheets/21mmdcjackDatasheet.pdf
+Power Jack
 0
 3
 3
 barral jack
 BarrelJack_Horizontal
-0
-0
+DC Barrel Jack
+Power Jack
 0
 3
 3
 barral jack
 BarrelJack_Wuerth_6941xx301002
-0
-0
+Wuerth electronics barrel jack connector (5.5mm outher diameter, inner diameter 2.05mm or 2.55mm depending on exact order number), See: http://katalog.we-online.de/em/datasheet/6941xx301002.pdf
+connector barrel jack
 0
 3
 3
 c1101_v2
 CC1101
-0
-0
+
+
 0
 22
 11
 c1101_v2
 CC1101_hmsensor
-0
-0
+
+
 0
 11
 11
 handsolder
 CC1101
-0
-0
+
+
 0
 12
 11
 handsolder
 C_0402_1005Metric_Pad0.74x0.62mm_HandSoldermod
-0
-0
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor handsolder
 0
 2
 2
 handsolder
 C_0805_2012handsodermod
-0
-0
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor handsolder
 0
 2
 2
 handsolder
 D_SOD-123handsoldermod
-0
-0
+SOD-123
+SOD-123
 0
 2
 2
 handsolder
+ESP-12Elesssilk
+Wi-Fi Module, http://wiki.ai-thinker.com/_media/esp8266/docs/aithinker_esp_12f_datasheet_en.pdf
+Wi-Fi Module
+0
+22
+22
+handsolder
 ESP32 handsolder
-0
-0
+Single 2.4 GHz Wi-Fi and Bluetooth combo chip https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
+Single 2.4 GHz Wi-Fi and Bluetooth combo  chip
 0
 39
 39
 handsolder
 LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mmhandsolder
-0
-0
+https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+LED RGB NeoPixel
 0
 4
 4
 handsolder
+PinSocket_1x05_P2.54mm_Vertical_mod
+Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x05 2.54mm single row
+0
+5
+5
+handsolder
+R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_mod
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+handsolder
 R_0805_2012handsoldermod
-0
-0
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+resistor handsolder
 0
 2
 2
 handsolder
 SMD-1210_Pol_inductor
-0
-0
+
+CMS SM
 0
 2
 2
 handsolder
 SOIC-16_4.55x10.3mm_hand solder
-0
-0
+SOIC, 16 Pin (https://toshiba.semicon-storage.com/info/docget.jsp?did=12858&prodName=TLP291-4), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
 0
 16
 16
 handsolder
 SOT-23-5
-5
-0
+5-pin SOT23 package
+SOT-23-5
 0
 5
 5
 handsolder
 SOT-23-5_HandSolderingmod
-5
-0
+5-pin SOT23 package
+SOT-23-5 hand-soldering
 0
 5
 5
 handsolder
 SOT-23-6handsoldering
-6
-0
+6-pin SOT-23 package
+SOT-23-6
 0
 6
 6
 handsolder
 SOT-363_SC-70-6_Handsoldering
-0
-0
+SOT-363, SC-70-6, Handsoldering
+SOT-363 SC-70-6 Handsoldering
 0
 6
 6
 handsolder
 SSOP-28_5.3x10.2mm_P0.65mmhandsoldermod
-28
-0
+28-Lead Plastic Shrink Small Outline (SS)-5.30 mm Body [SSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
 0
 28
 28
 handsolder
-USB_MICRO_B_101181930001LF
-10118193
+SW_PUSH_6mm_H8mm_mod
+tactile push button, 6x6mm e.g. PHAP33xx series, height=8mm
+tact sw push 6mm
 0
+4
+2
+handsolder
+SW_SPST_B3U-1000P_mod
+Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, without Ground Terminal, without Boss
+Tactile Switch
+0
+2
+2
+handsolder
+USB_MICRO_B_101181930001LF
+10118193-0001LF-1
+Connector
 0
 11
 6
 handsolder
 USB_MICRO_B_schmalle seite oben
-10118193
-0
+10118193-0001LF-1
+Connector
 0
 11
 6
 handsolder
 button_smd_hmsensor
-0
-0
+http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1437566-3&DocType=Customer+Drawing&DocLang=English
+SPST button tactile switch
 0
 2
 2
 handsolder
 feinsicherungshalter
-0
-0
+
+
 0
 2
 2
 handsolder
 usb_micro
-0
-0
+
+
 0
 11
 11
 homebrew
 91-RJ01-010
-0
-0
+Shielded, 2 LED, https://www.amphenolcanada.com/ProductSearch/drawings/AC/RJHSE538X.pdf
+RJ45 8p8c ethernet cat5
 0
 14
 13
 homebrew
 AG9xxx
-0
-0
+
+
 0
 10
 10
 homebrew
 ArduinoProMini
-0
-0
+
+
 0
 30
 28
 homebrew
 BATTERY_HOLDER_GOOBAY_AA
-0
-0
+
+
 0
 2
 2
 homebrew
 CC-BY-ND-SA
-0
-0
+
+
 0
 0
 0
 homebrew
 CC1101
-0
-0
+
+
 0
 22
 11
 homebrew
 CamdenBoss_CBRS01SWH
-0
-0
+
+
 0
 54
 1
 homebrew
 ESP32-WROOM-32_Handsoldering
-0
-0
+Single 2.4 GHz Wi-Fi and Bluetooth combo chip https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
+Single 2.4 GHz Wi-Fi and Bluetooth combo  chip
 0
 39
 39
 homebrew
 FTDI232_PCB
-0
-0
+
+
 0
 27
 18
 homebrew
 JLCPCB Tooling Hole
-0
-0
+
+
 0
 0
 0
 homebrew
 MountingHole_M2.5
-0
-0
+Mounting Hole 2.7mm, no annular, M2.5, ISO7380
+mounting hole 2.7mm no annular m2.5 iso7380
 0
 0
 0
 homebrew
 RJ45_Hanrun_HY934711C
-0
-0
+http://www.kosmodrom.com.ua/pdf/HR911105A.pdf
+RJ45 Magjack
 0
 16
 15
 homebrew
 RT9400
-0
-0
+
+
 0
 7
 7
 homebrew
 U-F-M5DD-Y-1
-0
-0
+
+
 0
 11
 6
 homebrew
 USB-MICRO-MK5P
-0
-0
+
+
 0
 9
 6
 mh-z19b
 Winsen_MH-Z19B
-0
-0
+
+
 0
 9
 9
 mini usb
 CUI_UJ2-MIBH2-4-SMT
-0
-0
+
+
 0
 10
 10
 mini usb
 USB_Micro-B_Unknown_5s_SMT
-0
-0
+Micro usb 5s B Type Smt (https://raw.githubusercontent.com/choryuidentify/USB-Micro-B-Unknown-5s-SMT/master/datasheet.pdf)
+Micro B USB SMD
 0
 9
 6
 switch
 button_smd
-0
-0
+
+
 0
 2
 2
 switch
 button_smd_hmsensor
+http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1437566-3&DocType=Customer+Drawing&DocLang=English
+SPST button tactile switch
 0
-0
-0
+2
+2
