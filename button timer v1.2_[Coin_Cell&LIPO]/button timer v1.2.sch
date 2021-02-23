@@ -19,7 +19,7 @@ U 1 1 602C0443
 P 6000 3400
 F 0 "X1" H 6000 3400 50  0001 C CNN
 F 1 "ESP-12E" H 6000 3400 50  0001 C CNN
-F 2 "RF_Module:ESP-12E" H 6000 3400 50  0001 C CNN
+F 2 "handsolder:ESP-12Elesssilk" H 6000 3400 50  0001 C CNN
 F 3 "" H 6000 3400 50  0001 C CNN
 	1    6000 3400
 	1    0    0    -1  
@@ -314,7 +314,7 @@ Wire Wire Line
 Text Label 2250 6050 3    50   ~ 0
 GND
 Wire Wire Line
-	2550 4150 2550 5050
+	2550 4150 2550 4900
 Wire Wire Line
 	2550 5050 2250 5050
 Wire Wire Line
@@ -522,5 +522,21 @@ F 3 "~" H 2750 6400 50  0001 C CNN
 $EndComp
 Connection ~ 2750 6250
 Text Label 2750 6550 3    50   ~ 0
+GND
+$Comp
+L Device:C C5
+U 1 1 6034F848
+P 2400 4900
+F 0 "C5" V 2148 4900 50  0000 C CNN
+F 1 "100nF" V 2239 4900 50  0000 C CNN
+F 2 "handsolder:C_0805_2012handsodermod" H 2438 4750 50  0001 C CNN
+F 3 "~" H 2400 4900 50  0001 C CNN
+	1    2400 4900
+	0    1    1    0   
+$EndComp
+Connection ~ 2550 4900
+Wire Wire Line
+	2550 4900 2550 5050
+Text Label 2250 4900 2    50   ~ 0
 GND
 $EndSCHEMATC

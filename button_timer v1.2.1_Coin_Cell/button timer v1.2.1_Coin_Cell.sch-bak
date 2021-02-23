@@ -100,14 +100,14 @@ $EndComp
 Text Label 2250 6050 3    50   ~ 0
 GND
 Wire Wire Line
-	2550 4150 2550 5050
+	2550 4150 2550 4950
 Wire Wire Line
 	2550 5050 2250 5050
 Wire Wire Line
 	2250 5050 2250 5150
 Wire Wire Line
 	2550 4150 2650 4150
-Text Label 2750 5650 0    50   ~ 0
+Text Label 3400 5650 0    50   ~ 0
 GPIO4
 Text Label 1000 6650 2    50   ~ 0
 GND
@@ -422,4 +422,38 @@ F 3 "" H 6000 3400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3350 5550 4450 5550
+Wire Wire Line
+	2750 5650 3050 5650
+$Comp
+L Device:C C4
+U 1 1 603444C4
+P 3050 5800
+F 0 "C4" H 3165 5846 50  0000 L CNN
+F 1 "10nf -100nf" H 3165 5755 50  0000 L CNN
+F 2 "handsolder:C_0402_1005Metric_Pad0.74x0.62mm_HandSoldermod" H 3088 5650 50  0001 C CNN
+F 3 "~" H 3050 5800 50  0001 C CNN
+	1    3050 5800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3050 5650
+Wire Wire Line
+	3050 5650 3400 5650
+Text Label 3050 5950 0    50   ~ 0
+GND
+$Comp
+L Device:C C?
+U 1 1 6034F227
+P 2700 4950
+F 0 "C?" V 2448 4950 50  0000 C CNN
+F 1 "100nF" V 2539 4950 50  0000 C CNN
+F 2 "handsolder:C_0805_2012handsodermod" H 2738 4800 50  0001 C CNN
+F 3 "~" H 2700 4950 50  0001 C CNN
+	1    2700 4950
+	0    1    1    0   
+$EndComp
+Connection ~ 2550 4950
+Wire Wire Line
+	2550 4950 2550 5050
+Text Label 2850 4950 0    50   ~ 0
+GND
 $EndSCHEMATC
