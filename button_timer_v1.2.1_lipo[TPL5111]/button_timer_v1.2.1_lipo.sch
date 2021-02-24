@@ -447,4 +447,24 @@ F 11 "https://www.arrow.com/en/products/tajb476m010tnj/avx" H 5650 2850 50  0001
 	1    5300 3700
 	0    1    1    0   
 $EndComp
+$Comp
+L Device:C C?
+U 1 1 60367C97
+P 5050 3900
+F 0 "C?" H 5165 3946 50  0000 L CNN
+F 1 "100nF" H 5165 3855 50  0000 L CNN
+F 2 "handsolder:C_0402_1005Metric_Pad0.74x0.62mm_HandSoldermod" H 5088 3750 50  0001 C CNN
+F 3 "~" H 5050 3900 50  0001 C CNN
+	1    5050 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3750 5050 3700
+Wire Wire Line
+	5050 3700 5300 3700
+Connection ~ 5300 3700
+Wire Wire Line
+	5050 4050 5050 4200
+Wire Wire Line
+	5050 4200 5300 4200
 $EndSCHEMATC

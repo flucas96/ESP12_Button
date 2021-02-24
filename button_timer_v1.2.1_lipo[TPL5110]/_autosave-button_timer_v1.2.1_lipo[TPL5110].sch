@@ -458,10 +458,10 @@ $EndComp
 Text Label 5300 4000 3    50   ~ 0
 GND
 $Comp
-L Device:C C?
+L Device:C C7
 U 1 1 60367D4C
 P 5000 3850
-F 0 "C?" H 5115 3896 50  0000 L CNN
+F 0 "C7" H 5115 3896 50  0000 L CNN
 F 1 "100nF" H 5115 3805 50  0000 L CNN
 F 2 "handsolder:C_0402_1005Metric_Pad0.74x0.62mm_HandSoldermod" H 5038 3700 50  0001 C CNN
 F 3 "~" H 5000 3850 50  0001 C CNN

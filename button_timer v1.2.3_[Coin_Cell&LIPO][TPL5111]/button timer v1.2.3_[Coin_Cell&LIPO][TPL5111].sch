@@ -584,4 +584,26 @@ F 3 "" H 6000 3400 50  0001 C CNN
 $EndComp
 Text Label 5300 4200 0    50   ~ 0
 GND
+$Comp
+L Device:C C7
+U 1 1 60368848
+P 5050 3900
+F 0 "C7" H 5165 3946 50  0000 L CNN
+F 1 "100nF" H 5165 3855 50  0000 L CNN
+F 2 "handsolder:C_0402_1005Metric_Pad0.74x0.62mm_HandSoldermod" H 5088 3750 50  0001 C CNN
+F 3 "~" H 5050 3900 50  0001 C CNN
+	1    5050 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3750 5050 3700
+Wire Wire Line
+	5050 3700 5300 3700
+Connection ~ 5300 3700
+Wire Wire Line
+	5300 3700 5350 3700
+Wire Wire Line
+	5050 4050 5050 4200
+Wire Wire Line
+	5050 4200 5300 4200
 $EndSCHEMATC

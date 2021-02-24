@@ -14,7 +14,18 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:Battery_Cell-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue BT1
+L button-timer-v1.2-rescue:ESP-12E-ardafruit-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue X1
+U 1 1 602C0443
+P 6000 3400
+F 0 "X1" H 6000 3400 50  0001 C CNN
+F 1 "ESP-12E" H 6000 3400 50  0001 C CNN
+F 2 "handsolder:ESP-12Elesssilk" H 6000 3400 50  0001 C CNN
+F 3 "" H 6000 3400 50  0001 C CNN
+	1    6000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L button-timer-v1.2-rescue:Battery_Cell-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue BT1
 U 1 1 602C3B33
 P 2200 4550
 F 0 "BT1" H 2318 4646 50  0000 L CNN
@@ -25,7 +36,7 @@ F 3 "~" V 2200 4610 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6700 3700 0    50   ~ 0
-GND_ESP
+GND
 Text Label 5300 3700 2    50   ~ 0
 VCC
 Text Label 8100 3350 2    50   ~ 0
@@ -41,7 +52,18 @@ RST
 Text Label 5300 3000 2    50   ~ 0
 RST
 $Comp
-L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:R-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue R3
+L button-timer-v1.2-rescue:R-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue R1
+U 1 1 602C727C
+P 4350 2000
+F 0 "R1" H 4420 2046 50  0000 L CNN
+F 1 "10k" H 4420 1955 50  0000 L CNN
+F 2 "handsolder:R_0805_2012handsoldermod" V 4280 2000 50  0001 C CNN
+F 3 "~" H 4350 2000 50  0001 C CNN
+	1    4350 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L button-timer-v1.2-rescue:R-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue R3
 U 1 1 602C7954
 P 3900 1950
 F 0 "R3" H 3970 1996 50  0000 L CNN
@@ -55,10 +77,14 @@ Text Label 5300 3200 2    50   ~ 0
 EN
 Text Label 3900 2100 3    50   ~ 0
 RST
+Text Label 4350 2150 3    50   ~ 0
+EN
 Text Label 3900 1800 0    50   ~ 0
 VCC
+Text Label 4350 1850 0    50   ~ 0
+VCC
 $Comp
-L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:C-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue C2
+L button-timer-v1.2-rescue:C-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue C2
 U 1 1 602C896A
 P 4850 2650
 F 0 "C2" H 4965 2696 50  0000 L CNN
@@ -73,7 +99,7 @@ GND
 Text Label 4850 2800 0    50   ~ 0
 RST
 $Comp
-L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:R-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue R4
+L button-timer-v1.2-rescue:R-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue R4
 U 1 1 602CA541
 P 5050 1950
 F 0 "R4" H 5120 1996 50  0000 L CNN
@@ -90,7 +116,7 @@ VCC
 Text Label 6700 3400 0    50   ~ 0
 GPIO0
 $Comp
-L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:R-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue R5
+L button-timer-v1.2-rescue:R-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue R5
 U 1 1 602CA91E
 P 5700 2000
 F 0 "R5" H 5770 2046 50  0000 L CNN
@@ -105,7 +131,7 @@ GND
 Text Label 5700 2150 3    50   ~ 0
 GPIO15
 $Comp
-L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:R-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue R2
+L button-timer-v1.2-rescue:R-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue R2
 U 1 1 602CC605
 P 3450 1950
 F 0 "R2" H 3520 1996 50  0000 L CNN
@@ -122,7 +148,7 @@ VCC
 Text Label 6700 3500 0    50   ~ 0
 GPIO2
 $Comp
-L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:SW_Push-Switch-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue SW2
+L button-timer-v1.2-rescue:SW_Push-Switch-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue SW2
 U 1 1 602CDBD4
 P 7800 2050
 F 0 "SW2" H 7800 2335 50  0000 C CNN
@@ -137,7 +163,7 @@ GPIO0
 Text Label 8000 2050 0    50   ~ 0
 GND
 $Comp
-L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:SW_Push-Switch-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue SW1
+L button-timer-v1.2-rescue:SW_Push-Switch-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue SW1
 U 1 1 602CFCB7
 P 1100 5650
 F 0 "SW1" H 1100 5935 50  0000 C CNN
@@ -154,7 +180,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 4150 2250 4150
 $Comp
-L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:C-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue C1
+L button-timer-v1.2-rescue:C-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue C1
 U 1 1 602D0C1F
 P 2250 4000
 F 0 "C1" H 2365 4046 50  0000 L CNN
@@ -164,8 +190,6 @@ F 3 "~" H 2250 4000 50  0001 C CNN
 	1    2250 4000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2700 4150 2700 4100
 Text Label 2250 3850 0    50   ~ 0
 GND
 Text Label 6700 3000 0    50   ~ 0
@@ -173,15 +197,13 @@ TX
 Text Label 6700 3100 0    50   ~ 0
 RX
 Wire Wire Line
-	2700 4100 2750 4100
-Wire Wire Line
 	3450 4100 3450 4200
 Wire Wire Line
 	3450 4200 3500 4200
 Text Label 3600 4450 2    50   ~ 0
 GND
 $Comp
-L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:INDUCTOR-pspice-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue L1
+L button-timer-v1.2-rescue:INDUCTOR-pspice-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue L1
 U 1 1 602E234D
 P 3150 4400
 F 0 "L1" H 3150 4615 50  0000 C CNN
@@ -194,7 +216,7 @@ $EndComp
 Wire Wire Line
 	4700 4450 4700 4400
 $Comp
-L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:C-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue C3
+L button-timer-v1.2-rescue:C-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue C3
 U 1 1 602E3D4A
 P 4650 4600
 F 0 "C3" H 4765 4646 50  0000 L CNN
@@ -212,9 +234,8 @@ Text Label 4700 4400 0    50   ~ 0
 VCC
 Text Label 6700 3600 0    50   ~ 0
 GPIO15
-Connection ~ 2750 4100
 $Comp
-L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:AP2112K-3.3-Regulator_Linear-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue U2
+L button-timer-v1.2-rescue:AP2112K-3.3-Regulator_Linear-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue U2
 U 1 1 602F5FBE
 P 3600 5100
 F 0 "U2" H 3600 5442 50  0000 C CNN
@@ -225,15 +246,15 @@ F 3 "https://www.diodes.com/assets/Datasheets/AP2112.pdf" H 3600 5200 50  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:R-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue R7
+L button-timer-v1.2-rescue:R-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue R7
 U 1 1 602F7A06
-P 3300 6200
-F 0 "R7" H 3370 6246 50  0000 L CNN
-F 1 "10k" H 3370 6155 50  0000 L CNN
-F 2 "handsolder:R_0805_2012handsoldermod" V 3230 6200 50  0001 C CNN
-F 3 "~" H 3300 6200 50  0001 C CNN
-	1    3300 6200
-	1    0    0    -1  
+P 3000 5400
+F 0 "R7" H 3070 5446 50  0000 L CNN
+F 1 "10k" H 3070 5355 50  0000 L CNN
+F 2 "handsolder:R_0805_2012handsoldermod" V 2930 5400 50  0001 C CNN
+F 3 "~" H 3000 5400 50  0001 C CNN
+	1    3000 5400
+	0    -1   -1   0   
 $EndComp
 Text Label 3600 5400 3    50   ~ 0
 GND
@@ -247,7 +268,7 @@ Connection ~ 2200 4250
 Wire Wire Line
 	2200 4250 2200 4150
 $Comp
-L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:Battery_Cell-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue BT2
+L button-timer-v1.2-rescue:Battery_Cell-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue BT2
 U 1 1 602FBA1B
 P 1900 4550
 F 0 "BT2" H 2018 4646 50  0000 L CNN
@@ -259,8 +280,10 @@ F 3 "~" V 1900 4610 50  0001 C CNN
 $EndComp
 Text Label 1900 4650 3    50   ~ 0
 GND
+Wire Wire Line
+	3900 5000 4550 5000
 $Comp
-L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:Conn_01x05_Female-Connector-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue J1
+L button-timer-v1.2-rescue:Conn_01x05_Female-Connector-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue J1
 U 1 1 60301345
 P 8300 3550
 F 0 "J1" H 8328 3576 50  0000 L CNN
@@ -270,41 +293,18 @@ F 3 "~" H 8300 3550 50  0001 C CNN
 	1    8300 3550
 	1    0    0    -1  
 $EndComp
-$Comp
-L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:TPL5111-Timer-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue U3
-U 1 1 6031B6A7
-P 2250 5650
-F 0 "U3" H 2200 6331 50  0000 C CNN
-F 1 "TPL5111" H 2200 6240 50  0000 C CNN
-F 2 "handsolder:SOT-23-6handsoldering" H 2250 5650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpl5111.pdf" H 600 5800 50  0001 C CNN
-	1    2250 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2750 5000 3300 5000
 Text Label 2250 6050 3    50   ~ 0
 GND
-Wire Wire Line
-	2550 4150 2550 4900
 Wire Wire Line
 	2550 5050 2250 5050
 Wire Wire Line
 	2250 5050 2250 5150
-Wire Wire Line
-	3300 5100 3300 5400
-Wire Wire Line
-	3300 5750 3000 5750
-Wire Wire Line
-	3300 5600 3300 5750
-Wire Wire Line
-	2750 4100 2750 5000
 Text Label 6700 3300 0    50   ~ 0
 GPIO4
 Text Label 2700 6250 2    50   ~ 0
 GPIO4
 $Comp
-L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:R-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue R8
+L button-timer-v1.2-rescue:R-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue R8
 U 1 1 6031EA78
 P 1500 5800
 F 0 "R8" H 1570 5846 50  0000 L CNN
@@ -317,13 +317,9 @@ $EndComp
 Text Label 1500 5950 3    50   ~ 0
 GND
 Wire Wire Line
-	3000 5750 3000 4800
-Wire Wire Line
 	2750 5550 3050 5550
 Wire Wire Line
 	3050 5550 3050 6350
-Wire Wire Line
-	3050 6350 3300 6350
 Text Label 1650 5550 2    50   ~ 0
 GND
 Text Label 7750 2550 2    50   ~ 0
@@ -331,7 +327,7 @@ GPIO5
 Wire Wire Line
 	7750 2550 8000 2550
 $Comp
-L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:R-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue R9
+L button-timer-v1.2-rescue:R-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue R9
 U 1 1 60325E7B
 P 8150 2550
 F 0 "R9" V 7943 2550 50  0000 C CNN
@@ -344,7 +340,7 @@ $EndComp
 Wire Wire Line
 	8300 2550 8500 2550
 $Comp
-L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:LED-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue D2
+L button-timer-v1.2-rescue:LED-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue D2
 U 1 1 6032747F
 P 8650 2550
 F 0 "D2" H 8643 2295 50  0000 C CNN
@@ -363,7 +359,7 @@ Connection ~ 2250 4150
 Wire Wire Line
 	2250 4150 2550 4150
 $Comp
-L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:TPS61097A-TPS-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue U1
+L button-timer-v1.2-rescue:TPS61097A-TPS-button-timer-v1.2-rescue-button-timer-v1.2-rescue U1
 U 1 1 6033543B
 P 3900 4150
 F 0 "U1" H 3950 4265 50  0000 C CNN
@@ -373,8 +369,6 @@ F 3 "" H 4250 4100 50  0001 C CNN
 	1    3900 4150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3000 4600 3800 4600
 Wire Wire Line
 	4450 4300 4300 4300
 Connection ~ 4650 4450
@@ -395,9 +389,6 @@ Wire Wire Line
 Wire Wire Line
 	2900 4400 2900 4100
 Wire Wire Line
-	2750 4100 2900 4100
-Connection ~ 2900 4100
-Wire Wire Line
 	2900 4100 3450 4100
 Wire Wire Line
 	1500 5650 1650 5650
@@ -409,7 +400,7 @@ Connection ~ 1500 5650
 Wire Wire Line
 	1350 5800 1350 5650
 $Comp
-L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:R-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue R6
+L button-timer-v1.2-rescue:R-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue R6
 U 1 1 602D454A
 P 1350 5950
 F 0 "R6" H 1420 5996 50  0000 L CNN
@@ -422,7 +413,7 @@ $EndComp
 Wire Wire Line
 	1350 6100 1150 6100
 $Comp
-L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:LED-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue D1
+L button-timer-v1.2-rescue:LED-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue D1
 U 1 1 602D28D1
 P 1150 6250
 F 0 "D1" V 1097 6328 50  0000 L CNN
@@ -443,8 +434,6 @@ Wire Wire Line
 	2650 3700 2650 4150
 Connection ~ 2650 4150
 Wire Wire Line
-	2650 4150 2700 4150
-Wire Wire Line
 	1150 6400 1150 6500
 Wire Wire Line
 	1150 6500 1450 6500
@@ -452,9 +441,6 @@ Text Label 1450 6500 0    50   ~ 0
 GND
 Wire Wire Line
 	4300 4450 4650 4450
-Connection ~ 3300 5750
-Wire Wire Line
-	3300 5750 3300 5950
 Wire Wire Line
 	2750 6250 2700 6250
 Wire Wire Line
@@ -489,72 +475,76 @@ Wire Wire Line
 	2550 4900 2550 5050
 Text Label 2250 4900 2    50   ~ 0
 GND
-Wire Wire Line
-	3300 5950 4000 5950
-Wire Wire Line
-	4000 5950 4000 6200
-Connection ~ 3300 5950
-Wire Wire Line
-	3300 5950 3300 6050
-Wire Wire Line
-	3900 5000 4550 5000
 $Comp
-L Device:R R1
-U 1 1 60362DCD
-P 4450 2000
-F 0 "R1" V 4243 2000 50  0000 C CNN
-F 1 "10k" V 4334 2000 50  0000 C CNN
-F 2 "handsolder:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_mod" V 4380 2000 50  0001 C CNN
-F 3 "~" H 4450 2000 50  0001 C CNN
-	1    4450 2000
-	-1   0    0    1   
-$EndComp
-Text Label 4450 2150 3    50   ~ 0
-EN
-Text Label 4450 1850 1    50   ~ 0
-VCC
-Wire Wire Line
-	4000 6200 4650 6200
-Text Label 4950 6400 3    50   ~ 0
-GND_ESP
-$Comp
-L Transistor_FET:IRF540N Q1
-U 1 1 6036A4FF
-P 4850 6200
-F 0 "Q1" H 5054 6246 50  0000 L CNN
-F 1 "mmbt222" H 5054 6155 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5100 6125 50  0001 L CIN
-F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 4850 6200 50  0001 L CNN
-	1    4850 6200
+L Timer:TPL5110 U3
+U 1 1 60354F1C
+P 2250 5550
+F 0 "U3" H 2200 6131 50  0000 C CNN
+F 1 "TPL5110" H 2200 6040 50  0000 C CNN
+F 2 "handsolder:SOT-23-6handsoldering" H 2250 5550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpl5110.pdf" H 2050 5150 50  0001 C CNN
+	1    2250 5550
 	1    0    0    -1  
 $EndComp
-Text Label 4950 6000 1    50   ~ 0
-GND
+Wire Wire Line
+	3150 5400 3300 5400
+Connection ~ 3300 5100
+Wire Wire Line
+	3300 5100 3300 5400
+Wire Wire Line
+	3750 6350 3750 5950
+Wire Wire Line
+	3050 6350 3750 6350
+Wire Wire Line
+	3550 5650 2800 5650
+Wire Wire Line
+	2800 5650 2800 4150
+Wire Wire Line
+	2650 4150 2800 4150
+Wire Wire Line
+	4000 5650 3950 5650
+Wire Wire Line
+	4000 5650 4000 5500
+Wire Wire Line
+	3150 4500 2900 4500
+Wire Wire Line
+	2900 4500 2900 4400
+Connection ~ 2900 4400
+Wire Wire Line
+	3150 5000 3300 5000
+Wire Wire Line
+	3150 5000 3150 4500
 $Comp
-L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:Jumper_NO_Small-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue JP2
-U 1 1 60326B8C
-P 3300 5500
-F 0 "JP2" V 3254 5548 50  0000 L CNN
-F 1 "Jumper LIPO" V 3345 5548 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3300 5500 50  0001 C CNN
-F 3 "~" H 3300 5500 50  0001 C CNN
-	1    3300 5500
-	0    1    1    0   
+L Transistor_FET:TSM2301ACX Q1
+U 1 1 60375658
+P 3750 5750
+F 0 "Q1" V 4092 5750 50  0000 C CNN
+F 1 "TSM2301ACX" V 4001 5750 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3950 5675 50  0001 L CIN
+F 3 "https://www.taiwansemi.com/products/datasheet/TSM2301A_C15.pdf" H 3750 5750 50  0001 L CNN
+	1    3750 5750
+	0    1    -1   0   
 $EndComp
-$Comp
-L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:Jumper_NO_Small-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue JP1
-U 1 1 6032A30E
-P 3000 4700
-F 0 "JP1" V 2954 4748 50  0000 L CNN
-F 1 "Jumper Coin Cell" V 3045 4748 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3000 4700 50  0001 C CNN
-F 3 "~" H 3000 4700 50  0001 C CNN
-	1    3000 4700
-	0    1    1    0   
-$EndComp
+Wire Wire Line
+	2550 4150 2550 4900
+Wire Wire Line
+	2850 5500 2850 5400
+Wire Wire Line
+	2850 5500 4000 5500
+Wire Wire Line
+	2850 5400 2850 4400
+Wire Wire Line
+	2850 4400 2900 4400
+Connection ~ 2850 5400
+Wire Wire Line
+	3300 5100 3200 5100
+Wire Wire Line
+	3200 4600 3200 5100
+Wire Wire Line
+	3200 4600 3800 4600
 $Comp
 L SamacSys_Parts:TAJB476M010TNJ C6
-U 1 1 60364975
+U 1 1 60364890
 P 5300 3700
 F 0 "C6" V 5504 3830 50  0000 L CNN
 F 1 "TAJB476M010TNJ" V 5595 3830 50  0000 L CNN
@@ -571,17 +561,24 @@ F 11 "https://www.arrow.com/en/products/tajb476m010tnj/avx" H 5650 2850 50  0001
 	1    5300 3700
 	0    1    1    0   
 $EndComp
-$Comp
-L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:ESP-12E-ardafruit-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue X1
-U 1 1 602C0443
-P 6000 3400
-F 0 "X1" H 6000 3400 50  0001 C CNN
-F 1 "ESP-12E" H 6000 3400 50  0001 C CNN
-F 2 "handsolder:ESP-12Elesssilk" H 6000 3400 50  0001 C CNN
-F 3 "" H 6000 3400 50  0001 C CNN
-	1    6000 3400
-	1    0    0    -1  
-$EndComp
 Text Label 5300 4200 0    50   ~ 0
 GND
+$Comp
+L Device:C C7
+U 1 1 6036880A
+P 5050 3850
+F 0 "C7" H 5165 3896 50  0000 L CNN
+F 1 "100nF" H 5165 3805 50  0000 L CNN
+F 2 "handsolder:C_0402_1005Metric_Pad0.74x0.62mm_HandSoldermod" H 5088 3700 50  0001 C CNN
+F 3 "~" H 5050 3850 50  0001 C CNN
+	1    5050 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3700 5300 3700
+Connection ~ 5300 3700
+Wire Wire Line
+	5050 4000 5050 4200
+Wire Wire Line
+	5050 4200 5300 4200
 $EndSCHEMATC

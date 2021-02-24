@@ -450,4 +450,45 @@ Text Label 4650 5900 0    50   ~ 0
 GND_ESP
 Text Label 4250 5900 2    50   ~ 0
 GND
+$Comp
+L SamacSys_Parts:TAJB476M010TNJ C6
+U 1 1 60364150
+P 5300 3700
+F 0 "C6" V 5504 3830 50  0000 L CNN
+F 1 "TAJB476M010TNJ" V 5595 3830 50  0000 L CNN
+F 2 "CAPPM3528X210N" H 5650 3750 50  0001 L CNN
+F 3 "http://datasheets.avx.com/TAJ.pdf" H 5650 3650 50  0001 L CNN
+F 4 "Tantalum Capacitors - Solid SMD 10volts 47uF 20%" H 5650 3550 50  0001 L CNN "Description"
+F 5 "2.1" H 5650 3450 50  0001 L CNN "Height"
+F 6 "AVX" H 5650 3350 50  0001 L CNN "Manufacturer_Name"
+F 7 "TAJB476M010TNJ" H 5650 3250 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "581-TAJB476M010TNJ" H 5650 3150 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/AVX/TAJB476M010TNJ?qs=pYVYkI7xuRVorIKKgcxm0A%3D%3D" H 5650 3050 50  0001 L CNN "Mouser Price/Stock"
+F 10 "TAJB476M010TNJ" H 5650 2950 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/tajb476m010tnj/avx" H 5650 2850 50  0001 L CNN "Arrow Price/Stock"
+	1    5300 3700
+	0    1    1    0   
+$EndComp
+Text Label 5300 4200 0    50   ~ 0
+GND
+$Comp
+L Device:C C?
+U 1 1 60367DF2
+P 5000 3850
+F 0 "C?" H 5115 3896 50  0000 L CNN
+F 1 "100nF" H 5115 3805 50  0000 L CNN
+F 2 "handsolder:C_0402_1005Metric_Pad0.74x0.62mm_HandSoldermod" H 5038 3700 50  0001 C CNN
+F 3 "~" H 5000 3850 50  0001 C CNN
+	1    5000 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3700 5300 3700
+Connection ~ 5300 3700
+Wire Wire Line
+	5000 4000 5200 4000
+Wire Wire Line
+	5200 4000 5200 4200
+Wire Wire Line
+	5200 4200 5300 4200
 $EndSCHEMATC
