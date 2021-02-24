@@ -510,4 +510,25 @@ Wire Wire Line
 Connection ~ 3350 5550
 Text Label 4000 6250 2    50   ~ 0
 VCC
+$Comp
+L SamacSys_Parts:T495B476K006ATE450 C6
+U 1 1 60365DC7
+P 5300 3700
+F 0 "C6" V 5504 3830 50  0000 L CNN
+F 1 "T495B476K006ATE450" V 5595 3830 50  0000 L CNN
+F 2 "CAPPM3528X210N" H 5650 3750 50  0001 L CNN
+F 3 "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/specsheet/T495B476K006ATE450" H 5650 3650 50  0001 L CNN
+F 4 "Cap Tant Solid 47uF 6.3V B CASE 10% (3.5 X 2.8 X 1.9mm) SMD 3528-21 0.45 Ohm 125C Automotive T/R" H 5650 3550 50  0001 L CNN "Description"
+F 5 "2.1" H 5650 3450 50  0001 L CNN "Height"
+F 6 "Kemet" H 5650 3350 50  0001 L CNN "Manufacturer_Name"
+F 7 "T495B476K006ATE450" H 5650 3250 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "80-T495B476K6ATE450" H 5650 3150 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=80-T495B476K6ATE450" H 5650 3050 50  0001 L CNN "Mouser Price/Stock"
+F 10 "T495B476K006ATE450" H 5650 2950 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/t495b476k006ate450/kemet-corporation" H 5650 2850 50  0001 L CNN "Arrow Price/Stock"
+	1    5300 3700
+	0    1    1    0   
+$EndComp
+Text Label 5300 4200 0    50   ~ 0
+GND
 $EndSCHEMATC
