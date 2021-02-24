@@ -436,10 +436,10 @@ Wire Wire Line
 Text Label 4050 2900 1    50   ~ 0
 VCC
 $Comp
-L Transistor_FET:IRF540N Q?
+L Transistor_FET:IRF540N Q1
 U 1 1 6035A1B7
 P 4450 6000
-F 0 "Q?" V 4792 6000 50  0000 C CNN
+F 0 "Q1" V 4792 6000 50  0000 C CNN
 F 1 "mmbt2222" V 4701 6000 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4700 5925 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 4450 6000 50  0001 L CNN

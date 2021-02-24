@@ -442,4 +442,19 @@ $EndComp
 Connection ~ 2750 4650
 Text Label 3050 4650 0    50   ~ 0
 GND
+Text Notes 2150 5950 0    50   ~ 0
+DRV is low when ACTIVE! [ONLY TPL5110] 
+$Comp
+L Device:CP C?
+U 1 1 60362D5E
+P 5300 3850
+F 0 "C?" H 5418 3896 50  0000 L CNN
+F 1 "47uF" H 5418 3805 50  0000 L CNN
+F 2 "SamacSys_Parts:CAPPM3528X210N" H 5338 3700 50  0001 C CNN
+F 3 "~" H 5300 3850 50  0001 C CNN
+	1    5300 3850
+	1    0    0    -1  
+$EndComp
+Text Label 5300 4000 3    50   ~ 0
+GND
 $EndSCHEMATC

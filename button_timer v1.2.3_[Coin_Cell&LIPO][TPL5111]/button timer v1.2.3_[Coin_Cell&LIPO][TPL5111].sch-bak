@@ -369,28 +369,6 @@ Text Label 8800 2550 0    50   ~ 0
 GND
 Text Label 6700 3200 0    50   ~ 0
 GPIO5
-$Comp
-L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:Jumper_NO_Small-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue JP2
-U 1 1 60326B8C
-P 3300 5500
-F 0 "JP2" V 3254 5548 50  0000 L CNN
-F 1 "Jumper LIPO" V 3345 5548 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3300 5500 50  0001 C CNN
-F 3 "~" H 3300 5500 50  0001 C CNN
-	1    3300 5500
-	0    1    1    0   
-$EndComp
-$Comp
-L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:Jumper_NO_Small-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue JP1
-U 1 1 6032A30E
-P 3000 4700
-F 0 "JP1" V 2954 4748 50  0000 L CNN
-F 1 "Jumper Coin Cell" V 3045 4748 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3000 4700 50  0001 C CNN
-F 3 "~" H 3000 4700 50  0001 C CNN
-	1    3000 4700
-	0    1    1    0   
-$EndComp
 Connection ~ 2550 4150
 Connection ~ 2250 4150
 Wire Wire Line
@@ -563,4 +541,26 @@ F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 4850 6200 50
 $EndComp
 Text Label 4950 6000 1    50   ~ 0
 GND
+$Comp
+L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:Jumper_NO_Small-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue JP2
+U 1 1 60326B8C
+P 3300 5500
+F 0 "JP2" V 3254 5548 50  0000 L CNN
+F 1 "Jumper LIPO" V 3345 5548 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3300 5500 50  0001 C CNN
+F 3 "~" H 3300 5500 50  0001 C CNN
+	1    3300 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:Jumper_NO_Small-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue JP1
+U 1 1 6032A30E
+P 3000 4700
+F 0 "JP1" V 2954 4748 50  0000 L CNN
+F 1 "Jumper Coin Cell" V 3045 4748 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3000 4700 50  0001 C CNN
+F 3 "~" H 3000 4700 50  0001 C CNN
+	1    3000 4700
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:ESP-12E-ardafruit-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue X1
-U 1 1 602C0443
-P 6000 3400
-F 0 "X1" H 6000 3400 50  0001 C CNN
-F 1 "ESP-12E" H 6000 3400 50  0001 C CNN
-F 2 "handsolder:ESP-12Elesssilk" H 6000 3400 50  0001 C CNN
-F 3 "" H 6000 3400 50  0001 C CNN
-	1    6000 3400
-	1    0    0    -1  
-$EndComp
-$Comp
 L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:Battery_Cell-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue BT1
 U 1 1 602C3B33
 P 2200 4550
@@ -563,4 +552,36 @@ F 3 "~" H 3000 4700 50  0001 C CNN
 	1    3000 4700
 	0    1    1    0   
 $EndComp
+$Comp
+L SamacSys_Parts:TAJB476M010TNJ C6
+U 1 1 60364975
+P 5300 3700
+F 0 "C6" V 5504 3830 50  0000 L CNN
+F 1 "TAJB476M010TNJ" V 5595 3830 50  0000 L CNN
+F 2 "CAPPM3528X210N" H 5650 3750 50  0001 L CNN
+F 3 "http://datasheets.avx.com/TAJ.pdf" H 5650 3650 50  0001 L CNN
+F 4 "Tantalum Capacitors - Solid SMD 10volts 47uF 20%" H 5650 3550 50  0001 L CNN "Description"
+F 5 "2.1" H 5650 3450 50  0001 L CNN "Height"
+F 6 "AVX" H 5650 3350 50  0001 L CNN "Manufacturer_Name"
+F 7 "TAJB476M010TNJ" H 5650 3250 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "581-TAJB476M010TNJ" H 5650 3150 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/AVX/TAJB476M010TNJ?qs=pYVYkI7xuRVorIKKgcxm0A%3D%3D" H 5650 3050 50  0001 L CNN "Mouser Price/Stock"
+F 10 "TAJB476M010TNJ" H 5650 2950 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/tajb476m010tnj/avx" H 5650 2850 50  0001 L CNN "Arrow Price/Stock"
+	1    5300 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue:ESP-12E-ardafruit-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue X1
+U 1 1 602C0443
+P 6000 3400
+F 0 "X1" H 6000 3400 50  0001 C CNN
+F 1 "ESP-12E" H 6000 3400 50  0001 C CNN
+F 2 "handsolder:ESP-12Elesssilk" H 6000 3400 50  0001 C CNN
+F 3 "" H 6000 3400 50  0001 C CNN
+	1    6000 3400
+	1    0    0    -1  
+$EndComp
+Text Label 5300 4200 0    50   ~ 0
+GND
 $EndSCHEMATC
