@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\fabia\\Google Drive\\ESP12_Button\\button_timer v1.2.3_[Coin_Cell&LIPO][TPL5111]\\button timer v1.2.3_[Coin_Cell&LIPO][TPL5111].sch")
-    (date "24/02/2021 16:34:43")
+    (date "25/02/2021 17:59:49")
     (tool "Eeschema (5.1.9)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -108,7 +108,7 @@
       (tstamp 602F7A06))
     (comp (ref BT2)
       (value Battery_Cell)
-      (footprint Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical)
+      (footprint Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical)
       (datasheet ~)
       (libsource (lib button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue) (part Battery_Cell-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue) (description ""))
       (sheetpath (names /) (tstamps /))

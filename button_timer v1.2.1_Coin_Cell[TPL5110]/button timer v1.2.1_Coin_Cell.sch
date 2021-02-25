@@ -524,4 +524,6 @@ Text Label 4800 3750 0    50   ~ 0
 VCC
 Text Label 4800 4050 0    50   ~ 0
 GND
+Text Notes 2600 6450 0    50   ~ 0
+TPL5110 DRV LOW when active
 $EndSCHEMATC

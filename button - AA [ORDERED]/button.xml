@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\fabia\Google Drive\ESP12_Button\button - AA [ORDERED]\button.sch</source>
+    <date>24/02/2021 22:46:15</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>button.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="X1">
+      <value>ESP-12E</value>
+      <footprint>RF_Module:ESP-12E</footprint>
+      <libsource lib="ardafruit" part="ESP-12E" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602C0443</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>Battery:BatteryHolder_Keystone_2460_1xAA</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602C3B33</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x06_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Male" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602C477A</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>handsolder:R_0805_2012handsoldermod</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602C727C</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>handsolder:R_0805_2012handsoldermod</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602C7954</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>handsolder:C_0805_2012handsodermod</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602C896A</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>handsolder:R_0805_2012handsoldermod</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602CA541</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>4.7k</value>
+      <footprint>handsolder:R_0805_2012handsoldermod</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602CA91E</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>handsolder:R_0805_2012handsoldermod</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602CC605</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>switch:button_smd_hmsensor</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602CDBD4</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602CFCB7</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>handsolder:C_0805_2012handsodermod</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602D0C1F</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602D28D1</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>handsolder:R_0805_2012handsoldermod</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602D454A</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TLV61224</value>
+      <footprint>handsolder:SOT-363_SC-70-6_Handsoldering</footprint>
+      <libsource lib="homebrew" part="TLV61224" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602DB147</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>4.7 uH</value>
+      <footprint>Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="INDUCTOR" description="Inductor symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602E234D</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>handsolder:C_0805_2012handsodermod</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602E3D4A</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>AP2112K-3.3</value>
+      <footprint>handsolder:SOT-23-5_HandSolderingmod</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP2112.pdf</datasheet>
+      <libsource lib="button-rescue" part="AP2112K-3.3-Regulator_Linear" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602F5FBE</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>handsolder:R_0805_2012handsoldermod</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602F7A06</tstamp>
+    </comp>
+    <comp ref="BT2">
+      <value>Battery_Cell</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602FBA1B</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x06_Male">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ardafruit" part="ESP-12E">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">ESP-12E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RESET" type="input"/>
+        <pin num="2" name="ADC" type="passive"/>
+        <pin num="3" name="CH_PD" type="input"/>
+        <pin num="4" name="GPIO16" type="BiDi"/>
+        <pin num="5" name="GPIO14" type="BiDi"/>
+        <pin num="6" name="GPIO12" type="BiDi"/>
+        <pin num="7" name="GPIO13" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="GPIO15" type="BiDi"/>
+        <pin num="11" name="GPIO2" type="BiDi"/>
+        <pin num="12" name="GPIO0" type="BiDi"/>
+        <pin num="13" name="GPIO4" type="BiDi"/>
+        <pin num="14" name="GPIO5" type="BiDi"/>
+        <pin num="15" name="RXD" type="input"/>
+        <pin num="16" name="TXD" type="output"/>
+        <pin num="17" name="CS" type="BiDi"/>
+        <pin num="18" name="DO" type="BiDi"/>
+        <pin num="19" name="GPIO10" type="BiDi"/>
+        <pin num="20" name="CLK" type="BiDi"/>
+        <pin num="21" name="DI" type="BiDi"/>
+        <pin num="22" name="GPIO9" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="button-rescue" part="AP2112K-3.3-Regulator_Linear">
+      <footprints>
+        <fp>SOT?23?5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP2112K-3.3-Regulator_Linear</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="homebrew" part="TLV61224">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV61224</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="input"/>
+        <pin num="2" name="FB" type="output"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="VOUT" type="output"/>
+        <pin num="5" name="L" type="input"/>
+        <pin num="6" name="EN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="INDUCTOR">
+      <description>Inductor symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+    <library logical="ardafruit">
+      <uri>C:/Users/fabia/Documents/kicad/libs/Adafruit_ESP8266_Feather-eagle-import.lib</uri>
+    </library>
+    <library logical="button-rescue">
+      <uri>C:\Users\fabia\Google Drive\ESP12_Button\button - AA [ORDERED]/button-rescue.lib</uri>
+    </library>
+    <library logical="homebrew">
+      <uri>C:/Users/fabia/Documents/kicad/alexreinert/PCB-master/Homebrew.lib</uri>
+    </library>
+    <library logical="pspice">
+      <uri>C:\Program Files\KiCad\share\kicad\library/pspice.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(L1-Pad2)">
+      <node ref="U1" pin="5"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="2" name="/VCC">
+      <node ref="D1" pin="1"/>
+      <node ref="X1" pin="8"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="J1" pin="6"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="3" name="Net-(D1-Pad2)">
+      <node ref="R6" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="4" name="/GND">
+      <node ref="J1" pin="5"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="BT2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="X1" pin="9"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="5" name="Net-(R7-Pad2)">
+      <node ref="U2" pin="3"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="6" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="7" name="Net-(BT1-Pad1)">
+      <node ref="BT1" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="L1" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="BT2" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="8" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="9" name="/RST">
+      <node ref="R6" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="X1" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="10" name="Net-(X1-Pad7)">
+      <node ref="X1" pin="7"/>
+    </net>
+    <net code="11" name="Net-(X1-Pad19)">
+      <node ref="X1" pin="19"/>
+    </net>
+    <net code="12" name="/GPIO15">
+      <node ref="R5" pin="2"/>
+      <node ref="X1" pin="10"/>
+    </net>
+    <net code="13" name="Net-(X1-Pad13)">
+      <node ref="X1" pin="13"/>
+    </net>
+    <net code="14" name="Net-(X1-Pad14)">
+      <node ref="X1" pin="14"/>
+    </net>
+    <net code="15" name="/RX">
+      <node ref="J1" pin="4"/>
+      <node ref="X1" pin="15"/>
+    </net>
+    <net code="16" name="/TX">
+      <node ref="J1" pin="3"/>
+      <node ref="X1" pin="16"/>
+    </net>
+    <net code="17" name="Net-(X1-Pad17)">
+      <node ref="X1" pin="17"/>
+    </net>
+    <net code="18" name="Net-(X1-Pad18)">
+      <node ref="X1" pin="18"/>
+    </net>
+    <net code="19" name="Net-(X1-Pad2)">
+      <node ref="X1" pin="2"/>
+    </net>
+    <net code="20" name="Net-(X1-Pad20)">
+      <node ref="X1" pin="20"/>
+    </net>
+    <net code="21" name="Net-(X1-Pad21)">
+      <node ref="X1" pin="21"/>
+    </net>
+    <net code="22" name="Net-(X1-Pad22)">
+      <node ref="X1" pin="22"/>
+    </net>
+    <net code="23" name="/EN">
+      <node ref="R1" pin="2"/>
+      <node ref="X1" pin="3"/>
+    </net>
+    <net code="24" name="Net-(X1-Pad4)">
+      <node ref="X1" pin="4"/>
+    </net>
+    <net code="25" name="Net-(X1-Pad5)">
+      <node ref="X1" pin="5"/>
+    </net>
+    <net code="26" name="Net-(X1-Pad6)">
+      <node ref="X1" pin="6"/>
+    </net>
+    <net code="27" name="/GPIO2">
+      <node ref="R2" pin="2"/>
+      <node ref="X1" pin="11"/>
+    </net>
+    <net code="28" name="/GPIO0">
+      <node ref="SW2" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="X1" pin="12"/>
+    </net>
+  </nets>
+</export>

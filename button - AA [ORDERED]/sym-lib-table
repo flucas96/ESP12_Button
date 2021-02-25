@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name button-rescue)(type Legacy)(uri ${KIPRJMOD}/button-rescue.lib)(options "")(descr ""))
+)

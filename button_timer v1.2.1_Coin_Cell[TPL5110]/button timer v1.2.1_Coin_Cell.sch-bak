@@ -509,4 +509,19 @@ F 11 "https://www.arrow.com/en/products/t495b476k006ate450/kemet-corporation" H 
 $EndComp
 Text Label 5300 4200 0    50   ~ 0
 GND
+$Comp
+L Device:C C7
+U 1 1 60368125
+P 4800 3900
+F 0 "C7" H 4915 3946 50  0000 L CNN
+F 1 "100nF" H 4915 3855 50  0000 L CNN
+F 2 "handsolder:C_0402_1005Metric_Pad0.74x0.62mm_HandSoldermod" H 4838 3750 50  0001 C CNN
+F 3 "~" H 4800 3900 50  0001 C CNN
+	1    4800 3900
+	1    0    0    -1  
+$EndComp
+Text Label 4800 3750 0    50   ~ 0
+VCC
+Text Label 4800 4050 0    50   ~ 0
+GND
 $EndSCHEMATC
