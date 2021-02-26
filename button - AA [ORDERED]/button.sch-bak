@@ -335,7 +335,7 @@ Connection ~ 2750 4100
 Wire Wire Line
 	2750 4100 2800 4100
 $Comp
-L Regulator_Linear:AP2112K-3.3 U2
+L button-rescue:AP2112K-3.3-Regulator_Linear U2
 U 1 1 602F5FBE
 P 3600 5100
 F 0 "U2" H 3600 5442 50  0000 C CNN

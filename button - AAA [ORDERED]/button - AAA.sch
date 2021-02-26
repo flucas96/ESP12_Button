@@ -210,7 +210,7 @@ F 1 "LED" V 6838 1528 50  0000 L CNN
 F 2 "LED_SMD:LED_1206_3216Metric_Castellated" H 6800 1450 50  0001 C CNN
 F 3 "~" H 6800 1450 50  0001 C CNN
 	1    6800 1450
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	6600 1600 6800 1600
@@ -324,7 +324,7 @@ Connection ~ 2750 4100
 Wire Wire Line
 	2750 4100 2800 4100
 $Comp
-L Regulator_Linear:AP2112K-3.3 U2
+L button---AAA-rescue:AP2112K-3.3-Regulator_Linear U2
 U 1 1 602F5FBE
 P 3600 5100
 F 0 "U2" H 3600 5442 50  0000 C CNN

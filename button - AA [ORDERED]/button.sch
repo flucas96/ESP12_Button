@@ -221,7 +221,7 @@ F 1 "LED" V 6838 1528 50  0000 L CNN
 F 2 "LED_SMD:LED_1206_3216Metric_Castellated" H 6800 1450 50  0001 C CNN
 F 3 "~" H 6800 1450 50  0001 C CNN
 	1    6800 1450
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	6600 1600 6800 1600

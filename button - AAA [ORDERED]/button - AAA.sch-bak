@@ -30,35 +30,24 @@ U 1 1 602C3B33
 P 2200 4550
 F 0 "BT1" H 2318 4646 50  0000 L CNN
 F 1 "Battery_Cell" H 2318 4555 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_2460_1xAA" V 2200 4610 50  0001 C CNN
+F 2 "Battery:BatteryHolder_Keystone_2466_1xAAA" V 2200 4610 50  0001 C CNN
 F 3 "~" V 2200 4610 50  0001 C CNN
 	1    2200 4550
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x06_Male J1
-U 1 1 602C477A
-P 7600 2950
-F 0 "J1" H 7572 2832 50  0000 R CNN
-F 1 "Conn_01x06_Male" H 7572 2923 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7600 2950 50  0001 C CNN
-F 3 "~" H 7600 2950 50  0001 C CNN
-	1    7600 2950
-	-1   0    0    1   
 $EndComp
 Text Label 6700 3700 0    50   ~ 0
 GND
 Text Label 5300 3700 2    50   ~ 0
 VCC
-Text Label 7400 2650 2    50   ~ 0
+Text Label 8100 3350 2    50   ~ 0
 VCC
-Text Label 7400 2750 2    50   ~ 0
+Text Label 8100 3450 2    50   ~ 0
 GND
-Text Label 7400 2850 2    50   ~ 0
+Text Label 8100 3550 2    50   ~ 0
 RX
-Text Label 7400 2950 2    50   ~ 0
+Text Label 8100 3650 2    50   ~ 0
 TX
-Text Label 7400 3050 2    50   ~ 0
+Text Label 8100 3750 2    50   ~ 0
 RST
 Text Label 5300 3000 2    50   ~ 0
 RST
@@ -391,4 +380,15 @@ Wire Wire Line
 Wire Wire Line
 	2750 5000 3200 5000
 Connection ~ 3200 5000
+$Comp
+L Connector:Conn_01x05_Female J1
+U 1 1 60301345
+P 8300 3550
+F 0 "J1" H 8328 3576 50  0000 L CNN
+F 1 "Conn_01x05_Female" H 8328 3485 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 8300 3550 50  0001 C CNN
+F 3 "~" H 8300 3550 50  0001 C CNN
+	1    8300 3550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
