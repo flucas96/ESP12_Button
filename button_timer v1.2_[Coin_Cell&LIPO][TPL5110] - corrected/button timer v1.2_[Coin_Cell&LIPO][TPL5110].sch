@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L button-timer-v1.2-rescue:ESP-12E-ardafruit-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue X1
-U 1 1 602C0443
-P 6000 3400
-F 0 "X1" H 6000 3400 50  0001 C CNN
-F 1 "ESP-12E" H 6000 3400 50  0001 C CNN
-F 2 "handsolder:ESP-12Elesssilk" H 6000 3400 50  0001 C CNN
-F 3 "" H 6000 3400 50  0001 C CNN
-	1    6000 3400
-	1    0    0    -1  
-$EndComp
-$Comp
 L button-timer-v1.2-rescue:Battery_Cell-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue BT1
 U 1 1 602C3B33
 P 2200 4550
@@ -345,7 +334,7 @@ U 1 1 6032747F
 P 8650 2550
 F 0 "D2" H 8643 2295 50  0000 C CNN
 F 1 "LED" H 8643 2386 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Castellated" H 8650 2550 50  0001 C CNN
+F 2 "handsolder:LED_0805_2012Metric_Castellated_mod" H 8650 2550 50  0001 C CNN
 F 3 "~" H 8650 2550 50  0001 C CNN
 	1    8650 2550
 	-1   0    0    1   
@@ -418,7 +407,7 @@ U 1 1 602D28D1
 P 1150 6250
 F 0 "D1" V 1097 6328 50  0000 L CNN
 F 1 "LED" V 1188 6328 50  0000 L CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Castellated" H 1150 6250 50  0001 C CNN
+F 2 "handsolder:LED_1206_3216Metric_Castellated" H 1150 6250 50  0001 C CNN
 F 3 "~" H 1150 6250 50  0001 C CNN
 	1    1150 6250
 	0    -1   -1   0   
@@ -520,7 +509,7 @@ U 1 1 60375658
 P 3750 5750
 F 0 "Q1" V 4092 5750 50  0000 C CNN
 F 1 "TSM2301ACX" V 4001 5750 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3950 5675 50  0001 L CIN
+F 2 "handsolder:SOT-23" H 3950 5675 50  0001 L CIN
 F 3 "https://www.taiwansemi.com/products/datasheet/TSM2301A_C15.pdf" H 3750 5750 50  0001 L CNN
 	1    3750 5750
 	0    1    -1   0   
@@ -576,9 +565,20 @@ F 3 "~" H 5050 3850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5050 3700 5300 3700
-Connection ~ 5300 3700
 Wire Wire Line
 	5050 4000 5050 4200
 Wire Wire Line
 	5050 4200 5300 4200
+$Comp
+L ardafruit:ESP-12E X1
+U 1 1 603C7685
+P 6000 3400
+F 0 "X1" H 6000 3400 50  0001 C CNN
+F 1 "ESP-12E" H 6000 3400 50  0001 C CNN
+F 2 "handsolder:ESP-12Elesssilk" H 6000 3400 50  0001 C CNN
+F 3 "" H 6000 3400 50  0001 C CNN
+	1    6000 3400
+	1    0    0    -1  
+$EndComp
+Connection ~ 5300 3700
 $EndSCHEMATC
