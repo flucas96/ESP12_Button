@@ -1,0 +1,394 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L button-rescue:ESP-12E-ardafruit X1
+U 1 1 602C0443
+P 6000 3400
+F 0 "X1" H 6000 3400 50  0001 C CNN
+F 1 "ESP-12E" H 6000 3400 50  0001 C CNN
+F 2 "RF_Module:ESP-12E" H 6000 3400 50  0001 C CNN
+F 3 "" H 6000 3400 50  0001 C CNN
+	1    6000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 602C3B33
+P 2200 4550
+F 0 "BT1" H 2318 4646 50  0000 L CNN
+F 1 "Battery_Cell" H 2318 4555 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_2460_1xAA" V 2200 4610 50  0001 C CNN
+F 3 "~" V 2200 4610 50  0001 C CNN
+	1    2200 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male J1
+U 1 1 602C477A
+P 7600 2950
+F 0 "J1" H 7572 2832 50  0000 R CNN
+F 1 "Conn_01x06_Male" H 7572 2923 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7600 2950 50  0001 C CNN
+F 3 "~" H 7600 2950 50  0001 C CNN
+	1    7600 2950
+	-1   0    0    1   
+$EndComp
+Text Label 6700 3700 0    50   ~ 0
+GND
+Text Label 5300 3700 2    50   ~ 0
+VCC
+Text Label 7400 2650 2    50   ~ 0
+VCC
+Text Label 7400 2750 2    50   ~ 0
+GND
+Text Label 7400 2850 2    50   ~ 0
+RX
+Text Label 7400 2950 2    50   ~ 0
+TX
+Text Label 7400 3050 2    50   ~ 0
+RST
+Text Label 5300 3000 2    50   ~ 0
+RST
+$Comp
+L Device:R R1
+U 1 1 602C727C
+P 4350 2000
+F 0 "R1" H 4420 2046 50  0000 L CNN
+F 1 "10k" H 4420 1955 50  0000 L CNN
+F 2 "handsolder:R_0805_2012handsoldermod" V 4280 2000 50  0001 C CNN
+F 3 "~" H 4350 2000 50  0001 C CNN
+	1    4350 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 602C7954
+P 3900 1950
+F 0 "R3" H 3970 1996 50  0000 L CNN
+F 1 "10k" H 3970 1905 50  0000 L CNN
+F 2 "handsolder:R_0805_2012handsoldermod" V 3830 1950 50  0001 C CNN
+F 3 "~" H 3900 1950 50  0001 C CNN
+	1    3900 1950
+	1    0    0    -1  
+$EndComp
+Text Label 5300 3200 2    50   ~ 0
+EN
+Text Label 3900 2100 3    50   ~ 0
+RST
+Text Label 4350 2150 3    50   ~ 0
+EN
+Text Label 3900 1800 0    50   ~ 0
+VCC
+Text Label 4350 1850 0    50   ~ 0
+VCC
+$Comp
+L Device:C C2
+U 1 1 602C896A
+P 4850 2650
+F 0 "C2" H 4965 2696 50  0000 L CNN
+F 1 "100nF" H 4965 2605 50  0000 L CNN
+F 2 "handsolder:C_0805_2012handsodermod" H 4888 2500 50  0001 C CNN
+F 3 "~" H 4850 2650 50  0001 C CNN
+	1    4850 2650
+	1    0    0    -1  
+$EndComp
+Text Label 4850 2500 0    50   ~ 0
+GND
+Text Label 4850 2800 0    50   ~ 0
+RST
+$Comp
+L Device:R R4
+U 1 1 602CA541
+P 5050 1950
+F 0 "R4" H 5120 1996 50  0000 L CNN
+F 1 "10k" H 5120 1905 50  0000 L CNN
+F 2 "handsolder:R_0805_2012handsoldermod" V 4980 1950 50  0001 C CNN
+F 3 "~" H 5050 1950 50  0001 C CNN
+	1    5050 1950
+	1    0    0    -1  
+$EndComp
+Text Label 5050 2100 3    50   ~ 0
+GPIO0
+Text Label 5050 1800 0    50   ~ 0
+VCC
+Text Label 6700 3400 0    50   ~ 0
+GPIO0
+$Comp
+L Device:R R5
+U 1 1 602CA91E
+P 5700 2000
+F 0 "R5" H 5770 2046 50  0000 L CNN
+F 1 "4.7k" H 5770 1955 50  0000 L CNN
+F 2 "handsolder:R_0805_2012handsoldermod" V 5630 2000 50  0001 C CNN
+F 3 "~" H 5700 2000 50  0001 C CNN
+	1    5700 2000
+	1    0    0    -1  
+$EndComp
+Text Label 5700 1850 0    50   ~ 0
+GND
+Text Label 5700 2150 3    50   ~ 0
+GPIO15
+$Comp
+L Device:R R2
+U 1 1 602CC605
+P 3450 1950
+F 0 "R2" H 3520 1996 50  0000 L CNN
+F 1 "10k" H 3520 1905 50  0000 L CNN
+F 2 "handsolder:R_0805_2012handsoldermod" V 3380 1950 50  0001 C CNN
+F 3 "~" H 3450 1950 50  0001 C CNN
+	1    3450 1950
+	1    0    0    -1  
+$EndComp
+Text Label 3450 2100 3    50   ~ 0
+GPIO2
+Text Label 3450 1800 0    50   ~ 0
+VCC
+Text Label 6700 3500 0    50   ~ 0
+GPIO2
+$Comp
+L Switch:SW_Push SW2
+U 1 1 602CDBD4
+P 7800 2050
+F 0 "SW2" H 7800 2335 50  0000 C CNN
+F 1 "SW_Push" H 7800 2244 50  0000 C CNN
+F 2 "switch:button_smd_hmsensor" H 7800 2250 50  0001 C CNN
+F 3 "~" H 7800 2250 50  0001 C CNN
+	1    7800 2050
+	1    0    0    -1  
+$EndComp
+Text Label 7600 2050 2    50   ~ 0
+GPIO0
+Text Label 8000 2050 0    50   ~ 0
+GND
+$Comp
+L Switch:SW_Push SW1
+U 1 1 602CFCB7
+P 6700 2150
+F 0 "SW1" H 6700 2435 50  0000 C CNN
+F 1 "SW_Push" H 6700 2344 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 6700 2350 50  0001 C CNN
+F 3 "~" H 6700 2350 50  0001 C CNN
+	1    6700 2150
+	1    0    0    -1  
+$EndComp
+Text Label 6500 2150 2    50   ~ 0
+RST
+Text Label 6900 2150 0    50   ~ 0
+GND
+Text Label 2200 4650 3    50   ~ 0
+GND
+Wire Wire Line
+	2200 4350 2200 4250
+Wire Wire Line
+	2200 4150 2250 4150
+$Comp
+L Device:C C1
+U 1 1 602D0C1F
+P 2250 4000
+F 0 "C1" H 2365 4046 50  0000 L CNN
+F 1 "10uF" H 2365 3955 50  0000 L CNN
+F 2 "handsolder:C_0805_2012handsodermod" H 2288 3850 50  0001 C CNN
+F 3 "~" H 2250 4000 50  0001 C CNN
+	1    2250 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 4150 2700 4150
+Wire Wire Line
+	2700 4150 2700 4100
+Connection ~ 2250 4150
+Text Label 2250 3850 0    50   ~ 0
+GND
+$Comp
+L Device:LED D1
+U 1 1 602D28D1
+P 6800 1450
+F 0 "D1" V 6747 1528 50  0000 L CNN
+F 1 "LED" V 6838 1528 50  0000 L CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Castellated" H 6800 1450 50  0001 C CNN
+F 3 "~" H 6800 1450 50  0001 C CNN
+	1    6800 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 1600 6800 1600
+$Comp
+L Device:R R6
+U 1 1 602D454A
+P 6600 1750
+F 0 "R6" H 6670 1796 50  0000 L CNN
+F 1 "1k" H 6670 1705 50  0000 L CNN
+F 2 "handsolder:R_0805_2012handsoldermod" V 6530 1750 50  0001 C CNN
+F 3 "~" H 6600 1750 50  0001 C CNN
+	1    6600 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 1300 6800 1150
+Text Label 6800 1150 0    50   ~ 0
+VCC
+Text Label 6700 3000 0    50   ~ 0
+TX
+Text Label 6700 3100 0    50   ~ 0
+RX
+$Comp
+L homebrew:TLV61224 U1
+U 1 1 602DB147
+P 3850 3800
+F 0 "U1" H 3900 3825 50  0000 C CNN
+F 1 "TLV61224" H 3900 3734 50  0000 C CNN
+F 2 "handsolder:SOT-363_SC-70-6_Handsoldering" H 3850 3800 50  0001 C CNN
+F 3 "" H 3850 3800 50  0001 C CNN
+	1    3850 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 4100 2750 4100
+Wire Wire Line
+	3450 4100 3450 4200
+Wire Wire Line
+	3450 4200 3500 4200
+Wire Wire Line
+	3500 4350 3400 4350
+Wire Wire Line
+	3400 4350 3400 4100
+Connection ~ 3400 4100
+Wire Wire Line
+	3400 4100 3450 4100
+Text Label 3500 4550 2    50   ~ 0
+GND
+Wire Wire Line
+	2800 4100 2800 3900
+Connection ~ 2800 4100
+Wire Wire Line
+	2800 4100 3400 4100
+$Comp
+L pspice:INDUCTOR L1
+U 1 1 602E234D
+P 3200 3900
+F 0 "L1" H 3200 4115 50  0000 C CNN
+F 1 "4.7 uH" H 3200 4024 50  0000 C CNN
+F 2 "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 3200 3900 50  0001 C CNN
+F 3 "~" H 3200 3900 50  0001 C CNN
+	1    3200 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 3900 3450 4000
+Wire Wire Line
+	3450 4000 3500 4000
+Wire Wire Line
+	2800 3900 2950 3900
+Wire Wire Line
+	4300 4000 4350 4000
+Wire Wire Line
+	4550 4000 4550 3950
+Wire Wire Line
+	4300 4150 4350 4150
+Wire Wire Line
+	4350 4150 4350 4000
+Connection ~ 4350 4000
+Wire Wire Line
+	4350 4000 4500 4000
+$Comp
+L Device:C C3
+U 1 1 602E3D4A
+P 4500 4150
+F 0 "C3" H 4615 4196 50  0000 L CNN
+F 1 "10uF" H 4615 4105 50  0000 L CNN
+F 2 "handsolder:C_0805_2012handsodermod" H 4538 4000 50  0001 C CNN
+F 3 "~" H 4500 4150 50  0001 C CNN
+	1    4500 4150
+	1    0    0    -1  
+$EndComp
+Connection ~ 4500 4000
+Wire Wire Line
+	4500 4000 4550 4000
+Text Label 4500 4300 0    50   ~ 0
+GND
+Text Label 4550 3950 0    50   ~ 0
+VCC
+Wire Wire Line
+	6600 1900 6600 2050
+Wire Wire Line
+	6600 2050 6500 2050
+Wire Wire Line
+	6500 2050 6500 2150
+Text Label 6700 3600 0    50   ~ 0
+GPIO15
+Wire Wire Line
+	2750 4100 2750 5000
+Connection ~ 2750 4100
+Wire Wire Line
+	2750 4100 2800 4100
+$Comp
+L button-rescue:AP2112K-3.3-Regulator_Linear U2
+U 1 1 602F5FBE
+P 3600 5100
+F 0 "U2" H 3600 5442 50  0000 C CNN
+F 1 "AP2112K-3.3" H 3600 5351 50  0000 C CNN
+F 2 "handsolder:SOT-23-5_HandSolderingmod" H 3600 5425 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2112.pdf" H 3600 5200 50  0001 C CNN
+	1    3600 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 602F7A06
+P 3200 5150
+F 0 "R7" H 3270 5196 50  0000 L CNN
+F 1 "10k" H 3270 5105 50  0000 L CNN
+F 2 "handsolder:R_0805_2012handsoldermod" V 3130 5150 50  0001 C CNN
+F 3 "~" H 3200 5150 50  0001 C CNN
+	1    3200 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 5000 3300 5000
+Wire Wire Line
+	3200 5300 3300 5300
+Wire Wire Line
+	3300 5300 3300 5100
+Text Label 3600 5400 3    50   ~ 0
+GND
+Text Label 4550 5000 0    50   ~ 0
+VCC
+Wire Wire Line
+	2200 4250 1900 4250
+Wire Wire Line
+	1900 4250 1900 4350
+Connection ~ 2200 4250
+Wire Wire Line
+	2200 4250 2200 4150
+$Comp
+L Device:Battery_Cell BT2
+U 1 1 602FBA1B
+P 1900 4550
+F 0 "BT2" H 2018 4646 50  0000 L CNN
+F 1 "Battery_Cell" H 2018 4555 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" V 1900 4610 50  0001 C CNN
+F 3 "~" V 1900 4610 50  0001 C CNN
+	1    1900 4550
+	1    0    0    -1  
+$EndComp
+Text Label 1900 4650 3    50   ~ 0
+GND
+Wire Wire Line
+	3900 5000 4550 5000
+Wire Wire Line
+	2750 5000 3200 5000
+Connection ~ 3200 5000
+$EndSCHEMATC

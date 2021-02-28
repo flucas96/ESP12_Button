@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name button-timer-rescue)(type Legacy)(uri "${KIPRJMOD}/button timer-rescue.lib")(options "")(descr ""))
+  (lib (name button-timer-v1.2-rescue)(type Legacy)(uri "${KIPRJMOD}/button timer v1.2-rescue.lib")(options "")(descr ""))
+  (lib (name button-timer-v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue)(type Legacy)(uri "${KIPRJMOD}/button timer v1.2.3_[Coin_Cell&LIPO][TPL5111]-rescue.lib")(options "")(descr ""))
+)

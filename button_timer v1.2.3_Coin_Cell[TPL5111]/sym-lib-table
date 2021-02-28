@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name button-timer-v1.2.3_Coin_Cell[TPL5111]-rescue)(type Legacy)(uri "${KIPRJMOD}/button timer v1.2.3_Coin_Cell[TPL5111]-rescue.lib")(options "")(descr ""))
-)
