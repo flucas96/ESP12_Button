@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L button_v1.2.2_lipo-rescue:ESP-12E-ardafruit-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue X1
-U 1 1 602C0443
-P 6000 3400
-F 0 "X1" H 6000 3400 50  0001 C CNN
-F 1 "ESP-12E" H 6000 3400 50  0001 C CNN
-F 2 "RF_Module:ESP-12E" H 6000 3400 50  0001 C CNN
-F 3 "" H 6000 3400 50  0001 C CNN
-	1    6000 3400
-	1    0    0    -1  
-$EndComp
-$Comp
 L button_v1.2.2_lipo-rescue:Battery_Cell-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue BT1
 U 1 1 602C3B33
 P 2200 4550
@@ -261,7 +250,7 @@ U 1 1 602D28D1
 P 3600 2300
 F 0 "D1" V 3547 2378 50  0000 L CNN
 F 1 "LED" V 3638 2378 50  0000 L CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Castellated" H 3600 2300 50  0001 C CNN
+F 2 "handsolder:LED_1206_3216Metric_Castellated" H 3600 2300 50  0001 C CNN
 F 3 "~" H 3600 2300 50  0001 C CNN
 	1    3600 2300
 	-1   0    0    1   
@@ -352,11 +341,22 @@ Wire Wire Line
 	4900 3750 4900 3700
 Wire Wire Line
 	4900 3700 5300 3700
-Connection ~ 5300 3700
 Wire Wire Line
 	4900 4050 5150 4050
 Wire Wire Line
 	5150 4050 5150 4200
 Wire Wire Line
 	5150 4200 5300 4200
+$Comp
+L ardafruit:ESP-12E X1
+U 1 1 603C2997
+P 6000 3400
+F 0 "X1" H 6000 3400 50  0001 C CNN
+F 1 "ESP-12E" H 6000 3400 50  0001 C CNN
+F 2 "handsolder:ESP-12Elesssilk" H 6000 3400 50  0001 C CNN
+F 3 "" H 6000 3400 50  0001 C CNN
+	1    6000 3400
+	1    0    0    -1  
+$EndComp
+Connection ~ 5300 3700
 $EndSCHEMATC

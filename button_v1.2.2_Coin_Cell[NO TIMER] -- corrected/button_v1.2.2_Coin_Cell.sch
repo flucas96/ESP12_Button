@@ -60,7 +60,7 @@ U 1 1 602D28D1
 P 2600 3400
 F 0 "D1" V 2547 3478 50  0000 L CNN
 F 1 "LED" V 2638 3478 50  0000 L CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Castellated" H 2600 3400 50  0001 C CNN
+F 2 "handsolder:LED_1206_3216Metric_Castellated" H 2600 3400 50  0001 C CNN
 F 3 "~" H 2600 3400 50  0001 C CNN
 	1    2600 3400
 	0    -1   -1   0   
@@ -309,17 +309,6 @@ Text Label 5300 3700 2    50   ~ 0
 VCC
 Text Label 6700 3700 0    50   ~ 0
 GND
-$Comp
-L button_v1.2.2_Coin_Cell-rescue:ESP-12E-ardafruit-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2.1_Coin_Cell-rescue X1
-U 1 1 602C0443
-P 6000 3400
-F 0 "X1" H 6000 3400 50  0001 C CNN
-F 1 "ESP-12E" H 6000 3400 50  0001 C CNN
-F 2 "RF_Module:ESP-12E" H 6000 3400 50  0001 C CNN
-F 3 "" H 6000 3400 50  0001 C CNN
-	1    6000 3400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3350 5550 4450 5550
 Wire Wire Line
@@ -376,9 +365,20 @@ F 3 "~" H 4950 3850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4950 3700 5300 3700
-Connection ~ 5300 3700
 Wire Wire Line
 	4950 4000 4950 4200
 Wire Wire Line
 	4950 4200 5300 4200
+$Comp
+L ardafruit:ESP-12E X1
+U 1 1 603C26C9
+P 6000 3400
+F 0 "X1" H 6000 3400 50  0001 C CNN
+F 1 "ESP-12E" H 6000 3400 50  0001 C CNN
+F 2 "handsolder:ESP-12Elesssilk" H 6000 3400 50  0001 C CNN
+F 3 "" H 6000 3400 50  0001 C CNN
+	1    6000 3400
+	1    0    0    -1  
+$EndComp
+Connection ~ 5300 3700
 $EndSCHEMATC

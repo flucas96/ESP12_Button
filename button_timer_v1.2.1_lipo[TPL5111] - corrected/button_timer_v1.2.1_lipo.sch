@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L button-timer-v1.2-rescue:ESP-12E-ardafruit-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue X1
-U 1 1 602C0443
-P 6000 3400
-F 0 "X1" H 6000 3400 50  0001 C CNN
-F 1 "ESP-12E" H 6000 3400 50  0001 C CNN
-F 2 "handsolder:ESP-12Elesssilk" H 6000 3400 50  0001 C CNN
-F 3 "" H 6000 3400 50  0001 C CNN
-	1    6000 3400
-	1    0    0    -1  
-$EndComp
-$Comp
 L button-timer-v1.2-rescue:Battery_Cell-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue BT1
 U 1 1 602C3B33
 P 2200 4550
@@ -306,7 +295,7 @@ U 1 1 6032747F
 P 6750 4650
 F 0 "D2" H 6743 4395 50  0000 C CNN
 F 1 "LED" H 6743 4486 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Castellated" H 6750 4650 50  0001 C CNN
+F 2 "handsolder:LED_1206_3216Metric_Castellated" H 6750 4650 50  0001 C CNN
 F 3 "~" H 6750 4650 50  0001 C CNN
 	1    6750 4650
 	0    1    1    0   
@@ -347,7 +336,7 @@ U 1 1 602D28D1
 P 1150 6250
 F 0 "D1" V 1097 6328 50  0000 L CNN
 F 1 "LED" V 1188 6328 50  0000 L CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Castellated" H 1150 6250 50  0001 C CNN
+F 2 "handsolder:LED_0805_2012Metric_Castellated_mod" H 1150 6250 50  0001 C CNN
 F 3 "~" H 1150 6250 50  0001 C CNN
 	1    1150 6250
 	0    -1   -1   0   
@@ -462,9 +451,20 @@ Wire Wire Line
 	5050 3750 5050 3700
 Wire Wire Line
 	5050 3700 5300 3700
-Connection ~ 5300 3700
 Wire Wire Line
 	5050 4050 5050 4200
 Wire Wire Line
 	5050 4200 5300 4200
+$Comp
+L ardafruit:ESP-12E X1
+U 1 1 603C27E0
+P 6000 3400
+F 0 "X1" H 6000 3400 50  0001 C CNN
+F 1 "ESP-12E" H 6000 3400 50  0001 C CNN
+F 2 "handsolder:ESP-12Elesssilk" H 6000 3400 50  0001 C CNN
+F 3 "" H 6000 3400 50  0001 C CNN
+	1    6000 3400
+	1    0    0    -1  
+$EndComp
+Connection ~ 5300 3700
 $EndSCHEMATC
