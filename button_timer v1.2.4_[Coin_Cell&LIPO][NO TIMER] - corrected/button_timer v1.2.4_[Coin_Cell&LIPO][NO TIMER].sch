@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L button-timer-v1.2-rescue:ESP-12E-ardafruit-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue X1
-U 1 1 602C0443
-P 6000 3400
-F 0 "X1" H 6000 3400 50  0001 C CNN
-F 1 "ESP-12E" H 6000 3400 50  0001 C CNN
-F 2 "handsolder:ESP-12Elesssilk" H 6000 3400 50  0001 C CNN
-F 3 "" H 6000 3400 50  0001 C CNN
-	1    6000 3400
-	1    0    0    -1  
-$EndComp
-$Comp
 L button-timer-v1.2-rescue:Battery_Cell-Device-button-timer-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue-button-timer-v1.2-rescue BT1
 U 1 1 602C3B33
 P 2200 4550
@@ -192,10 +181,6 @@ Wire Wire Line
 	2700 4150 2700 4100
 Text Label 2250 3850 0    50   ~ 0
 GND
-Text Label 6700 3000 0    50   ~ 0
-TX
-Text Label 6700 3100 0    50   ~ 0
-RX
 Wire Wire Line
 	2700 4100 2750 4100
 Wire Wire Line
@@ -322,8 +307,6 @@ F 3 "~" H 8650 2550 50  0001 C CNN
 $EndComp
 Text Label 8800 2550 0    50   ~ 0
 GND
-Text Label 6700 3200 0    50   ~ 0
-GPIO5
 Connection ~ 2250 4150
 $Comp
 L button-timer-v1.2-rescue:TPS61097A-TPS-button-timer-v1.2-rescue-button-timer-v1.2-rescue U1
@@ -382,7 +365,7 @@ U 1 1 602D28D1
 P 7650 5250
 F 0 "D1" V 7597 5328 50  0000 L CNN
 F 1 "LED" V 7688 5328 50  0000 L CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Castellated" H 7650 5250 50  0001 C CNN
+F 2 "handsolder:LED_1206_3216Metric_Castellated" H 7650 5250 50  0001 C CNN
 F 3 "~" H 7650 5250 50  0001 C CNN
 	1    7650 5250
 	0    1    1    0   
@@ -467,7 +450,6 @@ Wire Wire Line
 	5000 3750 5000 3700
 Wire Wire Line
 	5000 3700 5300 3700
-Connection ~ 5300 3700
 Wire Wire Line
 	5000 4050 5000 4200
 Wire Wire Line
@@ -478,7 +460,7 @@ U 1 1 60392835
 P 2550 3600
 F 0 "U3" H 2950 3865 50  0000 C CNN
 F 1 "TSM2323CX" H 2950 3774 50  0000 C CNN
-F 2 "SOT95P280X130-3N" H 3200 3700 50  0001 L CNN
+F 2 "handsolder:SOT-23" H 3200 3700 50  0001 L CNN
 F 3 "http://componentsearchengine.com/Datasheets/1/TSM2323CX.pdf" H 3200 3600 50  0001 L CNN
 F 4 "20V P-Channel MOSFET" H 3200 3500 50  0001 L CNN "Description"
 F 5 "" H 3200 3400 50  0001 L CNN "Height"
@@ -509,7 +491,7 @@ U 1 1 60391AED
 P 2200 4300
 F 0 "D3" H 2600 4033 50  0000 C CNN
 F 1 "MBR120VLSFT3G" H 2600 4124 50  0000 C CNN
-F 2 "SODFL3616X98N" H 2700 4450 50  0001 L CNN
+F 2 "handsolder:D_SOD-123handsoldermod" H 2700 4450 50  0001 L CNN
 F 3 "http://www.onsemi.com/pub/Collateral/MBR120VLSFT1-D.PDF" H 2700 4350 50  0001 L CNN
 F 4 "ON SEMICONDUCTOR - MBR120VLSFT3G - SCHOTTKY RECT, 1A, 20V, SOD123" H 2700 4250 50  0001 L CNN "Description"
 F 5 "0.98" H 2700 4150 50  0001 L CNN "Height"
@@ -534,4 +516,22 @@ Wire Wire Line
 	1500 3600 1500 4300
 Wire Wire Line
 	1500 3600 2550 3600
+$Comp
+L ardafruit:ESP-12E X1
+U 1 1 603C5773
+P 6000 3400
+F 0 "X1" H 6000 3400 50  0001 C CNN
+F 1 "ESP-12E" H 6000 3400 50  0001 C CNN
+F 2 "handsolder:ESP-12Elesssilk" H 6000 3400 50  0001 C CNN
+F 3 "" H 6000 3400 50  0001 C CNN
+	1    6000 3400
+	1    0    0    -1  
+$EndComp
+Connection ~ 5300 3700
+Text Label 6700 3200 0    50   ~ 0
+GPIO5
+Text Label 6700 3000 0    50   ~ 0
+TX
+Text Label 6700 3100 0    50   ~ 0
+RX
 $EndSCHEMATC

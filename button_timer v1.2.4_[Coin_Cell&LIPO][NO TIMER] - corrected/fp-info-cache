@@ -1,4 +1,4 @@
-18943947935019950
+18953642404921812
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75285,6 +75285,13 @@ Undefined or Miscellaneous
 3
 3
 SamacSys_Parts
+SOT95P280X145-5N
+SOT-23-5
+Power Supply
+0
+5
+5
+SamacSys_Parts
 SOT96P237X111-3N
 SOT-23 (TO-236) CASE 318-08 ISSUE AR
 Integrated Circuit
@@ -82154,6 +82161,13 @@ LED castellated
 2
 2
 handsolder
+LED_1206_3216Metric_Castellated
+LED SMD 1206 (3216 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED castellated
+0
+2
+2
+handsolder
 LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mmhandsolder
 https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
 LED RGB NeoPixel
@@ -82161,12 +82175,40 @@ LED RGB NeoPixel
 4
 4
 handsolder
+PinHeader_1x03_P2.54mm_Vertical
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
+handsolder
+PinHeader_1x04_P2.54mm_Vertical
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+handsolder
+PinHeader_1x06_P2.54mm_Vertical
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
+handsolder
 PinSocket_1x05_P2.54mm_Vertical_mod
 Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
 Through hole socket strip THT 1x05 2.54mm single row
 0
 5
 5
+handsolder
+PinSocket_1x07_P2.54mm_Vertical
+Through hole straight socket strip, 1x07, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x07 2.54mm single row
+0
+7
+7
 handsolder
 R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_mod
 Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
