@@ -392,10 +392,10 @@ Wire Wire Line
 	2500 4150 2500 4850
 Connection ~ 2250 4150
 $Comp
-L Timer:TPL5110 U?
+L Timer:TPL5110 U1
 U 1 1 603DA7CE
 P 2500 5400
-F 0 "U?" H 2450 5981 50  0000 C CNN
+F 0 "U1" H 2450 5981 50  0000 C CNN
 F 1 "TPL5110" H 2450 5890 50  0000 C CNN
 F 2 "handsolder:SOT-23-6handsoldering" H 2500 5400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpl5110.pdf" H 2300 5000 50  0001 C CNN
@@ -403,10 +403,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/tpl5110.pdf" H 2300 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C6
 U 1 1 603DE91C
 P 2650 4850
-F 0 "C?" V 2398 4850 50  0000 C CNN
+F 0 "C6" V 2398 4850 50  0000 C CNN
 F 1 "100nF" V 2489 4850 50  0000 C CNN
 F 2 "handsolder:C_0402_1005Metric_Pad0.74x0.62mm_HandSoldermod" H 2688 4700 50  0001 C CNN
 F 3 "~" H 2650 4850 50  0001 C CNN
@@ -417,10 +417,10 @@ Connection ~ 2500 4850
 Wire Wire Line
 	2500 4850 2500 5000
 $Comp
-L Device:C C?
+L Device:C C7
 U 1 1 603DFD21
 P 3000 5950
-F 0 "C?" H 2885 5904 50  0000 R CNN
+F 0 "C7" H 2885 5904 50  0000 R CNN
 F 1 "100nF" H 2885 5995 50  0000 R CNN
 F 2 "handsolder:C_0402_1005Metric_Pad0.74x0.62mm_HandSoldermod" H 3038 5800 50  0001 C CNN
 F 3 "~" H 3000 5950 50  0001 C CNN
@@ -447,10 +447,10 @@ GND
 Text Label 6700 3300 0    50   ~ 0
 GPIO4
 $Comp
-L SamacSys_Parts:TSM2323CX U?
+L SamacSys_Parts:TSM2323CX U3
 U 1 1 603E2948
 P 3200 4950
-F 0 "U?" H 3600 5215 50  0000 C CNN
+F 0 "U3" H 3600 5215 50  0000 C CNN
 F 1 "TSM2323CX" H 3600 5124 50  0000 C CNN
 F 2 "SOT95P280X130-3N" H 3850 5050 50  0001 L CNN
 F 3 "http://componentsearchengine.com/Datasheets/1/TSM2323CX.pdf" H 3850 4950 50  0001 L CNN
@@ -518,10 +518,10 @@ Wire Wire Line
 Text Label 1500 6100 0    50   ~ 0
 GND
 $Comp
-L Device:R R?
+L Device:R R8
 U 1 1 603F1D26
 P 1800 5650
-F 0 "R?" H 1870 5696 50  0000 L CNN
+F 0 "R8" H 1870 5696 50  0000 L CNN
 F 1 "10k" H 1870 5605 50  0000 L CNN
 F 2 "handsolder:R_0805_2012handsoldermod" V 1730 5650 50  0001 C CNN
 F 3 "~" H 1800 5650 50  0001 C CNN
