@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name button---AAA-rescue)(type Legacy)(uri "${KIPRJMOD}/button - AAA-rescue.lib")(options "")(descr ""))
+  (lib (name button-v2_1---AAA-[TPL5110]-rescue)(type Legacy)(uri "${KIPRJMOD}/button v2_1 - AAA [TPL5110]-rescue.lib")(options "")(descr ""))
+)
